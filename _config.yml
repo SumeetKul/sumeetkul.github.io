@@ -2,16 +2,16 @@
 title: Sumeet Kulkarni
 #subtitle: 
 email: sk7394@gmail.com
-description: To be filled with exciting stuff...
+description: Science Communicator, Graduate Researcher in Astrophysics
 #baseurl: "/" #the subpath of your site, e.g. /blog
 #url: # the base hostname & protocol for your site
 author: Sumeet Kulkarni
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 204 Lewis Hall
+city: The University of Mississippi
+state: Oxford MS
+zip_code: 38677
 country: United States of America
-phone: (716) 555-5555
+#phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -19,11 +19,11 @@ tiles-count: 6
 
 # social settings
 #500px_url:
-facebook_url:
+#facebook_url:
 github_url: https://github.com/SumeetKul
 #gitlab_url: https://gitlab.com/u/andrewbanchich
 #googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-#instagram_url: https://instagram.com
+instagram_url: https://www.instagram.com/the.sumeetsonian/
 linkedin_url: https://www.linkedin.com/in/sumeet-kulkarni/
 #pinterest_url:
 #slack_url:
