@@ -2,8 +2,8 @@
 layout: home
 title: Home
 landing-title: 'Hi, my name is Sumeet'
-description: null
-image: null
+description: 'test description'
+image: assets/images/pic11.jpg 
 author: Sumeet
 show_tile: false
 ---
