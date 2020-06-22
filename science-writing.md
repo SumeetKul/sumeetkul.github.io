@@ -2,7 +2,7 @@
 layout: page
 title: Science Writing
 description: Lorem ipsum dolor est
-image: assets/images/pic07.jpg
+image: assets/images/cricket.jpg
 nav-menu: true
 ---
 
