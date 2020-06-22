@@ -8,7 +8,7 @@ nav-menu: true
 
 <span class="image fit"><img src="{% link assets/images/pic07.jpg %}" alt="" /></span>
 <div class="box alt">
-        <div class="row 50% uniform">
+        <div class="row uniform">
 		<div class="4u"><span class="image fit"><img src="{% link assets/images/astro_dp.jpg %}" alt="" /></span></div>
 		<div class="4u"><span class="image fit"><img src="{% link assets/images/astro_art.jpg %}" alt="" /></span></div>
 		<div class="4u$"><span class="image fit"><img src="{% link assets/images/laser.jpg %}" alt="" /></span></div>
