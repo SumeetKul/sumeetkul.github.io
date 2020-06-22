@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: About Me
-description: Lorem ipsum dolor est
+description: 
 image: assets/images/sumeet2.jpg
 nav-menu: true
 ---

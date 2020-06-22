@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Science Writing
-description: Lorem ipsum dolor est
+title: Writing
+description: Media Clips, Internships, and more...
 image: assets/images/cricket.jpg
 nav-menu: true
 ---
