@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Hi, my name is Sumeet'
 description: 'test description'
-image: assets/images/pic07.jpg 
+image: assets/images/astro_art.jpg 
 author: Sumeet
 show_tile: false
 ---

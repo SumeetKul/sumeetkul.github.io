@@ -4,6 +4,7 @@ title: Writing
 landing-title: Science Writing
 description: Media Clips, Internships, and more...
 image: assets/images/cricket.jpg
+tag: 2
 nav-menu: true
 ---
 
