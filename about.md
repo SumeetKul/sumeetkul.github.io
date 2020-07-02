@@ -37,4 +37,12 @@ You can also find me on the following:
                                 <li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
                                 {% endif %}
 
+<br><br>
+<h4> Education </h4>
+
+<i>2012-2017</i><br>
+Integrated Bachelor of Science and Master of Science (B.S.-M.S.), <br>
+<a href="https://www.iiserpune.ac.in/" target="_blank">Indian Institute of Science Education and Research</a>, Pune, India
+
+
       

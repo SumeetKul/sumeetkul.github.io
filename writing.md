@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Writing
+title: Science Writing
 landing-title: Science Writing
 description: Media Clips, Internships, and more...
 image: assets/images/cricket.jpg
@@ -89,7 +89,7 @@ nav-menu: true
                                 </header>
                                 <p>Popping lava bubbles, surfing gravitational waves, and other miscellaneuos musings...</p>
                                 <ul class="actions">
-                                        <li><a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="button">Read Article</a></li>
+                                        <li><a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" class="button">Read Article</a></li>
                                 </ul>
                         </div>
                 </div>
