@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-description: 
+description: The Spacetime Symphony...
 image: assets/images/gw170817.jpg
 tag: 3
 nav-menu: true
