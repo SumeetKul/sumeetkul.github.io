@@ -32,7 +32,11 @@ nav-menu: true
 <br>
 
 
+
 <p> Episode Highlights:</p>
+
+{% include spotifyEpisode.html id="3mMA3V77Ng6IYCSC3XIjcn" %}
+
 {% include spotifyEpisode.html id="3UMdpxE2YyWG3SH1PVLByN" %}
 
 {% include spotifyEpisode.html id="4Fkp1owMt8oh1b3F75QsJx" %}

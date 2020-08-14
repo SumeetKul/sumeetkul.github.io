@@ -22,7 +22,7 @@ nav-menu: true
 <br><br>
 <b> Famelab</b>, 'The world's biggest Science Communication competition' challenges participants to Communicate Science in 3 minutes without using any visual aids. My talk, titled <i> Cosmic Fireworks, </i> explained one of the latest discoveries in my field: how two neutron stars collide in a \textit{Kilonova} explosion, using a pair of balloons filled with confetti. Winning the 3rd prize here gave me a chance to represent India at the Cheltenham Science Festival. Check out the story in <a href="https://timesofindia.indiatimes.com/city/pune/first-fame-lab-contest-unites-fine-arts-science/articleshow/57300934.cms" target="_blank"><i> The Times of India </i></a></p>
 <br><br>
-
+![hiheey](/home/sumeet/SumeetKul.github.io/assets/images/gw170817.jpg  "GW1807107")
 <h4> EURAXESS Science Slam </h4>
 <p style="text-align:center;">
 {% include YouTubePlayer.html id="aW0d4vyEtwM" %}

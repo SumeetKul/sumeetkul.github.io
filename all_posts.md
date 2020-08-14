@@ -3,7 +3,7 @@ layout: allposts
 title: Blog
 landing-title: 'All posts'
 nav-menu: true
-description: Under Construction...
+description: 
 image: null
 author: null
 show_tile: false
