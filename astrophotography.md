@@ -17,7 +17,7 @@ nav-menu: true
                 <div class="6u$"><span class="image fit"><img src="{% link assets/images/astro_art.jpg %}" alt="" /></span></div>
                 <!-- Break -->
                 <div class="6u"><span class="image fit"><img src="{% link assets/images/laguna.jpeg %}" alt="" /></span></div>
-                <div class="6u$"><span class="image fit"><img src="{% link assets/images/moon.jpg %}" alt="" /></span></div>
+                <div class="6u$"><span class="image fit"><img src="{% link assets/images/MoonFord.jpeg %}" alt="" /></span></div>
         </div>
 </div>
 
