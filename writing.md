@@ -28,7 +28,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="https://indiabioscience.org/authors/SumeetKulkarni" class="image">
 			<img src="{% link assets/images/indiabioscience.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -44,8 +44,24 @@ nav-menu: true
 				</ul>
 			</div>
 		</div>
-	</section>
-	<section>
+        </section>
+                <section>
+                <a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="image">
+                        <img src="{% link assets/images/thewire.jpg %}" alt="" data-position="center center" />
+                </a>
+                <div class="content">
+                        <div class="inner">
+                                <header class="major">
+                                        <h3>The Wire</h3>
+                                </header>
+                                <p>Scientists Discover How a Tiny Freshwater Animal Performs a Somersault. Published April  4, 2021.</p>
+                                <ul class="actions">
+                                        <li><a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="button">Read Article</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </section>
+        <section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/astrobites.jpg %}" alt="" data-position="25% 25%" />
 		</a>
@@ -54,16 +70,32 @@ nav-menu: true
 				<header class="major">
 					<h3>Astrobites</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>I am a regular author for Astrobites, a team of Astronomy graduate students who write and edit science summaries aimed at undergraduate students interested in learning more about the latest research in our field.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">All Posts</a></li>
                                         <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button">Author Page</a></li>
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> 
+                <section>
+                <a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" class="image">
+                        <img src="{% link assets/images/aasnova.jpg %}" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                        <div class="inner">
+                                <header class="major">
+                                        <h3>AAS Nova</h3>
+                                </header>
+                                <p>Lack of Spacetime Squiggles Limit How Much a Pulsar Can Be Squashed.</p>
+                                <ul class="actions">
+                                        <li><a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" target="_blank" class="button">Read Article</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </section>      
 	<section>
-                <a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="image">
+                <a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="image">
                         <img src="{% link assets/images/iscience.jpg %}" alt="" data-position="center center" />
                 </a>
                 <div class="content">
@@ -71,7 +103,7 @@ nav-menu: true
                                 <header class="major">
                                         <h3>I, Science</h3>
                                 </header>
-                                <p><b> Extreme Energies </b> <br> My first print feature was published in the Winter 2019 issue of <i>I, Science</i>, the science magazine of Imperial College, London. <i>Energy</i> was the theme of the issue, and my story revolved around a visit I made to the Hanford Site in Washington State, USA in Summer '18. This site is home to the nuclear reactor that enriched Plutonium for the Nagasaki atomic bomb: the most energetic human-made explosion at that time. Next to it lies the LIGO Hanford Observatory, which in 2015 detected one of the most energetic event humans had witnessed in the Universe.</p>
+                                <p><b> Extreme Energies </b> <br> Examining Gravitational Waves throught the prism of Energy, for <i>I, Science</i>, the science magazine of Imperial College, London.</p>
                                 <ul class="actions">
                                         <li><a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="button">Read Article</a></li>
                                 </ul>
