@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Thanks for landing here. #BlackLivesMatter. Be it Race/Caste/Ethnicity/Religion/Identity, own your privilege and work to wipe it away.'
+landing-title: "Hello, it's nice 'sumeet you!"
 description: 'Science Communicator, Graduate Researcher'
 image: assets/images/astro_art.jpg 
 author: Sumeet
