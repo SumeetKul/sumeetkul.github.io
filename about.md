@@ -16,7 +16,7 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">About Me</h2>
-<p><span class="image right"><img src="{% link assets/images/twitter_dp.jpg %}" alt="" /></span>I'm a third-year PhD candidate at the University of Mississippi. My research revolves around various aspects of gravitational wave astrophysics as well as noise characterization of the LIGO detectors. It involves a lot of coding, and I like to keep tapping my fingers on a keyboard even in my spare time, creating tunes instead of bugs. I run a science cafe featuring monthly public talks for the local community here in Oxford, MS, and I also love writing popular science articles. My other interests include reading, cooking, cats and coffee.</p>
+<p><span class="image right"><img src="{% link assets/images/twitter_dp.jpg %}" alt="" /></span>I'm a graduate researcher, science writer, and astrophotographer based in Oxford, MS. As a Physics PhD candidate at the University of Mississippi, I research various aspects of gravitational wave astrophysics as well as the noise characterization of the LIGO detectors. I'm a current AAAS Mass Media Fellow at the Los Angeles Times, and my science writing has also been featured in Scientific American, Astrobites, and India Bioscience. I run a science cafe featuring monthly public talks for the local community here in Oxford, MS, and an accompanying podcast called Ssippin' Science. My other interests include playing musical instruments, reading, cooking, cats and coffee.</p>
 <br>
 
 You can also find me on the following:
