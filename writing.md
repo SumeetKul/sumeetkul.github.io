@@ -10,6 +10,23 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
+        <section>
+                <a href="generic.html" class="image">
+                        <img src="{% link assets/images/latimes.jpg %}" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                        <div class="inner">
+                                <header class="major">
+                                        <h3>The Los Angeles Times</h3>
+                                </header>
+                                <p>I was a <a href="https://www.aaas.org/programs/mass-media-fellowship">AAAS Mass Media Fellow</a> at the <i>Los Angeles Times</i> in Summer 2022.</p>
+                                <ul class="actions">
+                                        <li><a href="latimes_posts.html" class="button">All Posts</a></li>
+                                        <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button">Author Page</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </section>
 	<section>
 		<a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="image">
 			<img src="{% link assets/images/sciam.jpg %}" alt="" data-position="center center" />
