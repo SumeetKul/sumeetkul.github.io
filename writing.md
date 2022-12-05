@@ -3,7 +3,7 @@ layout: landing
 title: Science Writing
 landing-title: Science Writing
 description: Media Clips, Internships, and more...
-image: assets/images/cricket.jpg
+image: assets/images/aaasmmf-desk.jpg
 tag: 2
 nav-menu: true
 ---
