@@ -44,5 +44,7 @@ You can also find me on the following:
 Integrated Bachelor of Science and Master of Science (B.S.-M.S.), <br>
 <a href="https://www.iiserpune.ac.in/" target="_blank">Indian Institute of Science Education and Research</a>, Pune, India
 
+<i>2020-2020</i><br>
+Master of Education (M.Ed.) in Science Education and Curriculum Instruction, <br>
+<a href="https://education.olemiss.edu/" target="_blank">University of Mississippi</a>, Oxford, MS, USA
 
-      
