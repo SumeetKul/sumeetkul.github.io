@@ -20,7 +20,7 @@ nav-menu: true
 
 <p>During the Covid-19 lockdown in Summer '20, I was fortunate to have some equipment and access to telescopes to seek solitary solace in clicking beautiful nighttime pictures of starry skies and various cosmic objects -  I haven't looked down since :) Astrophotography is now a serious and extremely fulfilling hobby of mine. I have tried to chase a full range of targets: the Milky Way band, star clusters and constellations, colorful Nebulae, Comet NEOWISE, various Planets, Zoom-ins into the Moon's craters as well as catching the Full Moon against various landscapes, Sunspots and even the International Space Station!</p> 
 
-<p>Featured above is a collage of some of my best shots, but I cannot host all images (especially high resolution ones) on this webpage. You can find my entire collection of shots at my <b><a href="https://sumeet-astrophoto.myportfolio.com/" target="_blank">Adobe Portfolio</a></b> page.</p>
+<p>Featured above is a collage of some of my best shots, but I cannot host all images (especially high resolution ones) on this webpage. You can find my entire collection of shots at my <b><a href="https://sumeet-astrophoto.myportfolio.com/" target="_blank" rel="noopener">Adobe Portfolio</a></b> page.</p>
 
 <p>Feel free to download and use these shots as your wallpapers! If sharing, kindly attribute these to "Sumeet Kulkarni" and include a link to my above portfolio webpage, as well as my instagram handle: [at]the.sumeetsonian.</p>
 

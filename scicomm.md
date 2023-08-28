@@ -27,7 +27,7 @@ nav-menu: true
 <p style="text-align:center;">
 {% include YouTubePlayer.html id="aW0d4vyEtwM" %}
 <br><br>
-   Organized by <a href="https://euraxess.ec.europa.eu/" target="_blank">EURAXESS</a>, <i> the science slam is a scientific talk where researchers compete to present their work in front of a non-expert audience. The slam is a way to show the engaging and fascinating side of research to the wider public. </i> To qualify for the science slam, I wrote, directed, composed music for and starred in a short 5-minute video on observing sources of gravitational waves like a collision of neutron stars, using optical telescopes. The final round took me on stage (again, in my favorite Einstein Tee!) for a live 10-minute slam on the same topic. Watch it here:
+   Organized by <a href="https://euraxess.ec.europa.eu/" target="_blank" rel="noopener noreferrer">EURAXESS</a>, <i> the science slam is a scientific talk where researchers compete to present their work in front of a non-expert audience. The slam is a way to show the engaging and fascinating side of research to the wider public. </i> To qualify for the science slam, I wrote, directed, composed music for and starred in a short 5-minute video on observing sources of gravitational waves like a collision of neutron stars, using optical telescopes. The final round took me on stage (again, in my favorite Einstein Tee!) for a live 10-minute slam on the same topic. Watch it here:
 <br><br>
 {% include YouTubePlayer.html id="p2gf78DNVco" %}
 </p>
@@ -41,6 +41,6 @@ nav-menu: true
 <h4> Other Activities </h4>
 <p>
 <ul>
-<li> I am a co-editor of the <a href="https://humansofligo.blogspot.com/" target="_blank">Humans of LIGO</a> blog, an initiative which celebrates individuals in the LIGO Scientific Collaboration, comprising of more than 1300 scientists and engineers from over 100 institutions and 18 countries worldwide.</li>
+<li> I am a co-editor of the <a href="https://humansofligo.blogspot.com/" target="_blank" rel="noopener noreferrer">Humans of LIGO</a> blog, an initiative which celebrates individuals in the LIGO Scientific Collaboration, comprising of more than 1300 scientists and engineers from over 100 institutions and 18 countries worldwide.</li>
 <li> Halloween spooky physics night: I dress up in nerdy costumes, serve liquid nitrogen candy and conduct physics demos like `the pumpkin drop' at this family-friendly event attended by over 300 locals every year at the UM Department of Physics and Astronomy.</li>
 </ul>

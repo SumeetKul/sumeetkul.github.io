@@ -20,14 +20,13 @@ nav-menu: true
 <h2 id="content">Oxford Science Cafe</h2>
 
 <p>I co-organize the Oxford Science Cafe: monthly public talks and conversations about science for the local community in Oxford, the only event of its kind in north Mississippi. Besides emceeing for the main event, I identify and invite potential speakers, help secure funding and publicize it.
-<br>Find out more on the homepage of the <a href="https://www.phy.olemiss.edu/oxfordsciencecafe/" target="_blank">Oxford Science Cafe</a></p>
+<br>Find out more on the homepage of the <a href="https://www.phy.olemiss.edu/oxfordsciencecafe/" target="_blank" rel="noopener">Oxford Science Cafe</a></p>
 
 <h2> Ssippin' Science </h2>
 
 <p>Ssippin' Science is a podcast where I pick up quotes and talking points from the Oxford Science Cafe talks, and add my narrative to craft concise stories for a science-y soundbite.</p> <br>
 
-<h5 id="content">Under Construction...</h5>
-<p>...but while you're here, check out my podcast on <a href="https://open.spotify.com/show/3J0VNtgE6LNatgA6sJyNYW" target="_blank">Spotify</a>, <a href="https://podcasts.apple.com/us/podcast/ssippin-science/id1507082060" target="_blank">Apple Podcasts</a> or <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYjk3Njg2Yy9wb2RjYXN0L3Jzcw%3D%3D" target="_blank">Google Podcasts</a>! 
+<p>Check out my podcast on <a href="https://open.spotify.com/show/3J0VNtgE6LNatgA6sJyNYW" target="_blank" rel="noopener noreferrer">Spotify</a>, <a href="https://podcasts.apple.com/us/podcast/ssippin-science/id1507082060" target="_blank" rel="noopener noreferrer">Apple Podcasts</a> or <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYjk3Njg2Yy9wb2RjYXN0L3Jzcw%3D%3D" target="_blank" rel="noopener noreferrer">Google Podcasts</a>! 
 </p>
 <br>
 
