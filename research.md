@@ -45,6 +45,6 @@ to subtract an overlapping glitch from an astrophysical gravitational-wave signa
 <br><br>
 <h3> List of Publications </h3>
 
-{% include_relative publications.md %}
+{% include_relative _includes/publications.md %}
 
 </p>
