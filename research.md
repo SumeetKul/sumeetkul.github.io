@@ -15,6 +15,15 @@ nav-menu: true
 <section id="one">
         <div class="inner">
 
+## Heading 2
+<h2> Gravitational Wave Data Analysis </h2>
+
+Throughout my graduate studies, I have been a part of the LIGO Scientific Collaboration. LIGO is a pair of 2.5 mile-long, L-shaped detectors---one in Livingston, Louisiana and the other in Hanford, Washington---that use lasers to detect <i>Gravitational Waves</i>, ripples in the fabric of spacetime given off by colliding black holes and neutron stars in our universe. The direct detection of gravitational waves is an insanely precise endeavour, one that won the Physics Nobel Prize in 2017. My research within LIGO has traversed various aspects of this challenge, from tackling noise in the detector, to figuring out the astrophysical properties of black holes hidden within the detected gravitational wave signals.
+
+<p>
+<b> For a more detailed and pedagogical introduction to gravitational wave physics, check out this interactive learning module I have created: </b> 
+
+<p>
 
 <h4> Explaining the Mass Gap </h4>
 <p><span class="image left"><img src="{% link assets/images/massgap.jpg %}" alt="" /></span> We do not know where the dividing line between neutron stars and black holes lies in terms of their mass. Theoretically, the heaviest a neutron star can be is about three times the mass of the sun. The lightest black holes we’ve seen weigh around five solar masses. We’ve never observed anything using telescopesin the space between three and five—a range we call the <i>'mass gap'</i>. That is, until now. The LIGO-Virgo gravitational wave observatories have detected compact objects with masses in this range. We are still unsure whether they are heavy neutron stars or lightweight black holes. It is still unclear on how they form. One possibility is of them being 'second-generation' compact objects formed out of the merger of two smaller neutron stars. I'm working on creating models to explain how the mass gap objects we are detecing in LIGO-Virgo may have formed, and how many we could detect using future, 3rd generation gravitational wave detectors.</p>
@@ -31,6 +40,11 @@ to subtract an overlapping glitch from an astrophysical gravitational-wave signa
 
 <h4> Random Projections </h4>
 <p><span class="image left"><img src="{% link assets/images/RPPlanes.jpg %}" alt="" /></span> My Masters' Thesis project followed the idea of <i>Random Projections</i>, long utilized in data science, which says that the structural distribution of a high volume of data is retained when we project it randomly onto a lower-dimensional subspace. The relationship between any two data points, for instance how far apart they lie, is not affected by this projection, making it a lot easier to carry out data analysis with lesser computing power. I applied this technique to the needle-in-the-haystack search for gravitational waves. You can read more about my work in the article published in <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.101503" target="_blank" rel="noopener"><i>Physical Review D</i></a>. Open Access available on <a href="https://arxiv.org/abs/1801.04506" target="_blank" rel="noopener">ArXiv</a></p>
-</div>
-:tada: 
-<br>
+
+<p>
+<br><br>
+<h3> List of Publications </h3>
+
+{% include_relative publications.md %}
+
+</p>
