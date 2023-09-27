@@ -15,7 +15,7 @@ nav-menu: true
 <section id="one">
         <div class="inner">
 
-## Heading 2
+
 <h2> Gravitational Wave Data Analysis </h2>
 
 Throughout my graduate studies, I have been a part of the LIGO Scientific Collaboration. LIGO is a pair of 2.5 mile-long, L-shaped detectors---one in Livingston, Louisiana and the other in Hanford, Washington---that use lasers to detect <i>Gravitational Waves</i>, ripples in the fabric of spacetime given off by colliding black holes and neutron stars in our universe. The direct detection of gravitational waves is an insanely precise endeavour, one that won the Physics Nobel Prize in 2017. My research within LIGO has traversed various aspects of this challenge, from tackling noise in the detector, to figuring out the astrophysical properties of black holes hidden within the detected gravitational wave signals.
