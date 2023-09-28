@@ -10,20 +10,37 @@ nav-menu: true
 
 <!-- Main -->
 <div id="main" class="alt" display:inline-block>
+    
+<style>
+body {
+  background-image: url('../bbhspins_bg.gif');background-repeat:no-repeat;
+}
+</style> 
+
 
 <!-- One -->
 <section id="one">
-        <div class="inner">
+  <div class="inner">
+ 
 
-
-<h2> Gravitational Wave Data Analysis </h2>
+     
+<h2> Gravitational Wave Data Analysis & Visualization</h2>
 
 Throughout my graduate studies, I have been a part of the LIGO Scientific Collaboration. LIGO is a pair of 2.5 mile-long, L-shaped detectors---one in Livingston, Louisiana and the other in Hanford, Washington---that use lasers to detect <i>Gravitational Waves</i>, ripples in the fabric of spacetime given off by colliding black holes and neutron stars in our universe. The direct detection of gravitational waves is an insanely precise endeavour, one that won the Physics Nobel Prize in 2017. My research within LIGO has traversed various aspects of this challenge, from tackling noise in the detector, to figuring out the astrophysical properties of black holes hidden within the detected gravitational wave signals.
 
-<p>
+<p><br>
 <b> For a more detailed and pedagogical introduction to gravitational wave physics, check out this interactive learning module I have created: </b> 
+   <br>
+        A lot of physics concepts taught at the middle- and high-school level are also applied in cutting-edge research such as the detection of gravitational waves by LIGO. This online, interactive module uses Streamlit, a python-based library to connect the astrophysics of black holes to the properties of waves that they emit, forming a toolkit for teaching physics in an engaging way. 
+    <br> <b>Link:</b>
+    <a href="https://gravitational-waves-tutorial.streamlit.app/" target="_blank" rel="noopener">https://gravitational-waves-tutorial.streamlit.app/</a>
+<br><br>
+            </p>
+
 
 <p>
+    
+<h3> Summary of Research Projects:</h3>
 
 <h4> Explaining the Mass Gap </h4>
 <p><span class="image left"><img src="{% link assets/images/massgap.jpg %}" alt="" /></span> We do not know where the dividing line between neutron stars and black holes lies in terms of their mass. Theoretically, the heaviest a neutron star can be is about three times the mass of the sun. The lightest black holes we’ve seen weigh around five solar masses. We’ve never observed anything using telescopesin the space between three and five—a range we call the <i>'mass gap'</i>. That is, until now. The LIGO-Virgo gravitational wave observatories have detected compact objects with masses in this range. We are still unsure whether they are heavy neutron stars or lightweight black holes. It is still unclear on how they form. One possibility is of them being 'second-generation' compact objects formed out of the merger of two smaller neutron stars. I'm working on creating models to explain how the mass gap objects we are detecing in LIGO-Virgo may have formed, and how many we could detect using future, 3rd generation gravitational wave detectors.</p>
