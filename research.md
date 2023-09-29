@@ -13,7 +13,8 @@ nav-menu: true
     
 <style>
 body {
-  background-image: url('../bbhspins_bg.gif');background-repeat:no-repeat;
+  background-image: url('../bbhspins_bg.gif'); background-repeat:no-repeat; 
+    background-attachment: fixed; background-size: cover; 
 }
 </style> 
 
