@@ -12,7 +12,7 @@ nav-menu: true
 <div id="main" class="alt" display:inline-block>
 
 
-<video id="background-video" autoplay loop muted playsinline id="video-background" poster="../assets/images/bbhspins_poster.mp4">
+<video id="background-video" autoplay loop muted playsinline poster="../assets/images/bbhspins_poster.mp4">
 <source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
 </video>
     
