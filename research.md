@@ -10,11 +10,23 @@ nav-menu: true
 
 <!-- Main -->
 <div id="main" class="alt" display:inline-block>
+
+
+<video id="background-video" autoplay loop muted>
+<source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
+</video>
     
 <style>
-body {
-  background-image: url('../bbhspins_bg.gif'); background-repeat:no-repeat; 
-    background-attachment: fixed; background-size: cover; 
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 </style> 
 
