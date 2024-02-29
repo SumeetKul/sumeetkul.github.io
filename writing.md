@@ -12,7 +12,24 @@ nav-menu: true
 <section id="two" class="spotlights">
         <section>
                 <a href="generic.html" class="image">
-                        <img src="{% link assets/images/latimes.jpg %}" alt="" data-position="25% 25%" />
+                        <img src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                        <div class="inner">
+                                <header class="major">
+                                        <h3>Nature</h3>
+                                </header>
+                                <p>I'm the Spring 2024 News Writing Intern at <a href="https://www.nature.com/news" target="_blank" rel="noopener">Nature Magazine</a></p>
+                                <ul class="actions">
+                                        <li><a href="nature_posts.html" class="button">All Posts</a></li>
+                                        <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </section>
+        <section>
+                <a href="generic.html" class="image">
+                        <img src="{% link assets/images/latimes-logo.jpg %}" alt="" data-position="25% 25%" />
                 </a>
                 <div class="content">
                         <div class="inner">
