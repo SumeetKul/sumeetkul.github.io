@@ -1,11 +1,13 @@
 ---
 layout: home
 title: Home
-landing-title: "Hello, it's nice 'sumeet you!"
+landing-title: "Welcome to my webpage,<br><span style='font-size: 0.8em;'>it's nice 'sumeet you!</span>"
 description: 'Science Communicator, Graduate Researcher'
 image: assets/images/astro_art.jpg 
 author: Sumeet
 show_tile: false
 ---
 
-You may view or download the pdf of my Science Communication CV [here]({{ site.url }}/assets/Sumeet_CV_scicomm.pdf){:target="_blank_"}, and my academic CV [here]({{ site.url }}/assets/Sumeet_CV.pdf){:target="_blank_"}.
+You can find my resumes below:
+*   [Science Communication Resume (PDF)]({{ site.url }}/assets/Sumeet_resume_scicomm.pdf){:target="_blank_"}
+*   [Academic CV (PDF)]({{ site.url }}/assets/Sumeet_CV.pdf){:target="_blank_"}
