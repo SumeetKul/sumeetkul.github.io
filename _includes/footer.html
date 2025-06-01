@@ -25,9 +25,9 @@
 		<section class="split">
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
+					<span class="icon alt fa-envelope" aria-hidden="true"></span>
 					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
 			<!-- section>
@@ -39,21 +39,32 @@
 			</section -->
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
+					<span class="icon alt fa-home" aria-hidden="true"></span>
 					<h3>Address</h3>
 					<span>
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
 					{% endif %}
+					{% assign csz_output = "" %}
 					{% if site.city %}
-					    {{ site.city }},
+					    {% assign csz_output = csz_output | append: site.city %}
+					    {% if site.state or site.zip_code %}
+					        {% assign csz_output = csz_output | append: "," %}
+					    {% endif %}
 					{% endif %}
 					{% if site.state %}
-					    {{ site.state }} 
+					    {% if site.city %}{% assign csz_output = csz_output | append: " " %}{% endif %}
+					    {% assign csz_output = csz_output | append: site.state %}
 					{% endif %}
 					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
+					    {% if site.city or site.state %}{% assign csz_output = csz_output | append: " " %}{% endif %}
+					    {% assign csz_output = csz_output | append: site.zip_code %}
 					{% endif %}
+					
+					{% if csz_output != "" %}
+					    {{ csz_output }}<br />
+					{% endif %}
+					
 					{% if site.country %}
 					    {{ site.country }}
 					{% endif %}
@@ -63,7 +74,6 @@
 		</section>
 	</div>
 </section>
-
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
@@ -116,5 +126,4 @@
 	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
