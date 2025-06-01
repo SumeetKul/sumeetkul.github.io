@@ -8,6 +8,5 @@ author: Sumeet
 show_tile: false
 ---
 
-You can find my resumes below:
 *   [Science Communication Resume (PDF)]({{ site.url }}/assets/Sumeet_resume_scicomm.pdf){:target="_blank_"}
 *   [Academic CV (PDF)]({{ site.url }}/assets/Sumeet_CV.pdf){:target="_blank_"}
