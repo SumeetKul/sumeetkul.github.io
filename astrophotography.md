@@ -2,7 +2,7 @@
 layout: page
 title: Astrophotography
 description: Capturing the Night Sky
-image: assets/images/pic11.jpg
+image: assets/images/astropic.jpg
 tag: 6
 nav-menu: true
 ---

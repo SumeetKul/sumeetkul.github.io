@@ -2,7 +2,7 @@
 layout: post
 title: Astrophotography
 description: Under Development
-image: assets/images/pic11.jpg
+image: assets/images/astropic.jpg
 ---
 
 
