@@ -112,6 +112,8 @@
   top: 0;
   left: 0;
   max-width: 100%;
+  border: 0;
+  border-radius: 12px; /* Matches Spotify's typical embed style */
 }
 
 // Youtube
