@@ -1,47 +1,18 @@
-{% assign empty_array_for_tiles = "" | split: "|" %}
 {% if 'posts' == site.tiles-source %}
-    {% assign tiles_source_list = site.posts %}
+    {% assign tiles = site.posts %}
 {% elsif 'pages' == site.tiles-source %}
-    {% assign tiles_source_list = site.html_pages | where_exp: "item", "item.show_tile != false" | sort:'tag' %}
-{% else %}
-    {% assign tiles_source_list = empty_array_for_tiles %}
+    {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" | sort:'tag' %}
 {% endif %}
-
-{% comment %} Ensure tiles_source_list is an array, even if the source was nil {% endcomment %}
-{% assign tiles_source_list = tiles_source_list | default: empty_array_for_tiles %}
-
-{% comment %} Limit the number of tiles if site.tiles-count is set and positive {% endcomment %}
-{% if site.tiles-count and site.tiles-count > 0 %}
-    {% assign tiles_to_display = tiles_source_list | limit: site.tiles-count %}
-{% else %}
-    {% assign tiles_to_display = tiles_source_list %}
-{% endif %}
-
-{% assign num_tiles_to_display = tiles_to_display | size %}
-
 <section id="one" class="tiles">
-  {% if num_tiles_to_display > 0 %}
-    {% for tile_item in tiles_to_display %}
-      {%- assign article_classes = [] -%}
-      {%- comment %} Add existing style from front matter if present (e.g., tile_item.style = "style1") {% endcomment -%}
-      {%- if tile_item.style -%}
-        {%- assign style_class_value = tile_item.style -%}
-        {%- assign article_classes = article_classes | push: style_class_value -%}
-      {%- endif -%}
-
-      {%- comment %} Add full-width class if it's the last tile and total is odd {% endcomment -%}
-      {%- if forloop.last and num_tiles_to_display | modulo: 2 == 1 -%}
-        {%- assign article_classes = article_classes | push: "full-width-tile" -%}
-      {%- endif -%}
-      <article {% if article_classes.size > 0 %}class="{{ article_classes | join: ' ' }}"{% endif %}>
-        <span class="image">
-          <img src="{{ tile_item.image }}" alt="" />
-        </span>
-        <header class="major">
-          <h3><a href="{{ tile_item.url | relative_url }}" class="link">{{ tile_item.title }}</a></h3>
-          <p>{{ tile_item.description }}</p>
-        </header>
-      </article>
-    {% endfor %}
-  {% endif %}
+  {% for tile in tiles limit:site.tiles-count %}
+  <article>
+    <span class="image">
+      <img src="{{ tile.image }}" alt="" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      <p>{{ tile.description }}</p>
+    </header>
+  </article>
+  {% endfor %}
 </section>
