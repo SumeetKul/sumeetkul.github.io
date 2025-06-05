@@ -1,11 +1,12 @@
 ---
 layout: landing
-title: Science Writing
+title: Writing
 landing-title: Science Writing
 description: Media Clips, Internships, and more...
 image: assets/images/aaasmmf-desk.jpg
 tag: 2
-nav-menu: true
+nav-menu: True
+nav-order: 3
 ---
 
 <!-- Two -->

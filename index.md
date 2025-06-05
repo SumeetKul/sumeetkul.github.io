@@ -6,6 +6,7 @@ description: 'Science Writer & Communicator'
 image: assets/images/sumeet3.jpg 
 author: Sumeet
 show_tile: false
+nav-order: 1
 ---
 
 *   [Science Communication Resume (PDF)]({{ site.url }}/assets/Sumeet_resume_scicomm.pdf){:target="_blank_"}

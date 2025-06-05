@@ -4,7 +4,8 @@ title: Ssippin' Science
 description: Science Cafe and Podcast
 image: assets/images/osc.jpg
 tag: 4
-nav-menu: true
+nav-menu: False
+show_tile: False
 ---
 
 

@@ -5,6 +5,7 @@ description: Capturing the Night Sky
 image: assets/images/astropic.jpg
 tag: 6
 nav-menu: true
+nav-order: 6
 ---
 
 <!-- Main -->
