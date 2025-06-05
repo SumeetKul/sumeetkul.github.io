@@ -16,7 +16,7 @@
         {% if home_page_item %}
 		    <li><a href="{{ "/" | absolute_url }}">{{ home_page_item.title }}</a></li>
 	    {% endif %}
-		{% assign nav_pages = site.html_pages | where_exp: "item", "item.layout != 'home' and item.nav-menu == true" | sort: "nav-order" %}
+		{% assign nav_pages = site.html_pages | where_exp: "item", "item.layout != 'home' and item['nav-menu'] == true" | sort: "nav-order" %}
 		{% for page in nav_pages %}
 		    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		{% endfor %}
