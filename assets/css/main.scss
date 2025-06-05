@@ -135,3 +135,9 @@
     height: 100%;
     border: 0; /* Replaces frameborder="0" */
 }
+
+.profile-image-round {
+  border-radius: 50%; 
+  height: 450px; /* Same as width */
+  object-fit: cover; /* This will crop the image to fit without distortion */
+}
