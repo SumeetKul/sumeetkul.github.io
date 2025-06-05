@@ -181,3 +181,15 @@
 			}
 		}
 	}
+
+
+.tiles {
+    // ... existing styles for .tiles ...
+
+	article.full-width-tile {
+		width: 100% !important;
+		flex-grow: 0 !important;     // Prevent growing
+		flex-shrink: 0 !important;   // Prevent shrinking
+		flex-basis: 100% !important; // Explicitly set flex-basis to 100%
+	}
+}

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: "Welcome to my webpage,<br><span style='font-size: 0.8em;'>it's nice 'sumeet you!</span>"
+landing-title: "Welcome to my homepage,<br><span style='font-size: 0.8em;'>it's nice 'sumeet you!</span>"
 description: 'Science Writer & Communicator'
 image: assets/images/sumeet3.jpg 
 author: Sumeet
