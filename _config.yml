@@ -17,6 +17,30 @@ country: United States of America
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
+# navigation menu
+nav-menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about.html   # Adjust the URL based on the actual file path
+  - title: blog
+    url: /blog.html   # Adjust the URL based on the actual file path
+  - title: Writing  
+    url: /writing.html   # Adjust the URL based on the actual file path
+  - title: Photography
+    url: /astrophotography.html   # Adjust the URL based on the actual file path
+  - title: Science Communication
+    url: /scicomm.html   # Adjust the URL based on the actual file path
+  - title: Research
+    url: /research.html  # or /research/ if it's in a subdirectory
+
+
+
+
+
+
+
+
 # social settings
 github_url: https://github.com/SumeetKul
 instagram_url: https://www.instagram.com/the.sumeetsonian/

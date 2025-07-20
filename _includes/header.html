@@ -16,12 +16,11 @@
         {% if home_page_item %}
 		    <li><a href="{{ "/" | absolute_url }}">{{ home_page_item.title }}</a></li>
 	    {% endif %}
-		{% comment %}
-		{% assign nav_pages = site.html_pages | where_exp: "item", "item.layout != 'home' and item['nav-menu'] == true" | sort: "nav-order" %}
-		{% for page in nav_pages %}
-		    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		{% for item in site.nav-menu %}
+			{% unless item.title == "Home" %}  <!-- Avoid duplicating the Home link -->
+		    	<li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
+			{% endunless %}
 		{% endfor %}
-		{% endcomment %}
 		<!-- Custom link for Resume -->
 		<li><a href="{{ '/assets/pdf/Sumeet_Kulkarni_Resume.pdf' | absolute_url }}" target="_blank" rel="noopener noreferrer">Resume</a></li>
 		<!-- Custom link for Contact section -->

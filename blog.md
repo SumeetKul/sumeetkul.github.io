@@ -6,7 +6,7 @@ nav-menu: true
 description: 
 image: null
 author: null
-show_tile: False
+show_tile: True
 tag: 7
 nav-order: 7
 ---
