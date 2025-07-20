@@ -2,7 +2,7 @@
 layout: page
 title: Astrophotography
 description: Capturing the Night Sky
-image: assets/images/astropic.jpg
+image: assets/images/astrophoto_collage.png
 tag: 6
 nav-menu: true
 nav-order: 6
@@ -29,4 +29,6 @@ nav-order: 6
 
 <p>For more information about Astrophotography and stories behind some of my pictures, check out the blog section of my site - I am in the process of writing up my experiences!</p>
 
+<div id="end" class="alt" display:inline-block>
+<span class="image fit"><img src="{% link assets/images/lagoon_nebula_wide.jpg %}" alt="" /></span>
 
