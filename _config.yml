@@ -52,3 +52,15 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+# Plugins
+plugins:
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag_archive
+  permalinks:
+    tag: '/blog/tags/:name/'

@@ -6,6 +6,7 @@ image: assets/images/astrophoto_collage.png
 tag: 6
 nav-menu: true
 nav-order: 6
+show_tile: true
 ---
 
 <!-- Main -->

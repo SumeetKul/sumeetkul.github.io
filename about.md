@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About
+title: About Me
 description: 
 image: assets/images/sumeet2.jpg
 tag: 1
 nav-menu: true
 nav-order: 2
+show_tile: true
 ---
 
 <!-- Main -->

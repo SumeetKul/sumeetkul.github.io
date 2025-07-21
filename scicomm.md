@@ -5,6 +5,7 @@ description:
 image: assets/images/scicomm_bns.jpg
 tag: 5
 nav-menu: true
+show_tile: true
 nav-order: 4
 ---
 
@@ -33,11 +34,35 @@ nav-order: 4
 {% include YouTubePlayer.html id="p2gf78DNVco" %}
 </p>
 <br>
-<h4> Public Talks </h4>
 
-<ul>
-<li> The British Council's <i>Cafe Scientifique</i>: I spoke about 'The Rise of Artificial Intelligence in Astronomy' at the British Library, Pune to an audience of around 60. Cafe Scientifique provides a unique forum for the discussion of scientific issues in a way that is much more relaxed, informal and accessible than a public lecture. (January 5, 2018) </li>
-</ul>
+<h2 id="content">Oxford Science Cafe</h2>
+
+<p>Between 2019-2023, I co-organized the Oxford Science Cafe: monthly public talks and conversations about science for the local community in Oxford, the only event of its kind in north Mississippi. Besides emceeing for the main event, I identify and invite potential speakers, help secure funding and publicize it.
+<br>Find out more on the homepage of the <a href="https://www.phy.olemiss.edu/oxfordsciencecafe/" target="_blank" rel="noopener">Oxford Science Cafe</a></p>
+
+<h2> Ssippin' Science </h2>
+
+<p>Ssippin' Science is a podcast where I pick up quotes and talking points from the Oxford Science Cafe talks, and add my narrative to craft concise stories for a science-y soundbite.</p> <br>
+
+<p>Check out my podcast on <a href="https://open.spotify.com/show/3J0VNtgE6LNatgA6sJyNYW" target="_blank" rel="noopener noreferrer">Spotify</a>, <a href="https://podcasts.apple.com/us/podcast/ssippin-science/id1507082060" target="_blank" rel="noopener noreferrer">Apple Podcasts</a> or <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYjk3Njg2Yy9wb2RjYXN0L3Jzcw%3D%3D" target="_blank" rel="noopener noreferrer">Google Podcasts</a>! 
+</p>
+<br>
+
+
+
+<p> Episode Highlights:</p>
+
+{% include spotifyEpisode.html id="3mMA3V77Ng6IYCSC3XIjcn" %}
+
+{% include spotifyEpisode.html id="3UMdpxE2YyWG3SH1PVLByN" %}
+
+{% include spotifyEpisode.html id="4Fkp1owMt8oh1b3F75QsJx" %}
+
+{% include spotifyEpisode.html id="0LIvfqh5LOPxcHq234zIXr" %}
+
+</div>
+<br>
+
 
 <h4> Other Activities </h4>
 <p>

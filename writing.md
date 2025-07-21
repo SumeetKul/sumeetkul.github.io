@@ -7,6 +7,7 @@ image: assets/images/aaasmmf-desk.jpg
 tag: 2
 nav-menu: True
 nav-order: 3
+show_tile: True
 ---
 
 <!-- Two -->
