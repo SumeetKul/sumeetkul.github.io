@@ -21,7 +21,7 @@ show_tile: True
                 <header class="major">
                     <h3>Nature</h3>
                 </header>
-                <p>I'm the Spring 2024 News Writing Intern at <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature Magazine</a></p>
+                <p>I was the Spring 2024 News Writing Intern at <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature Magazine</a></p>
                 <ul class="actions">
                     <li><a href="nature_posts.html" class="button">All Posts</a></li>
                     <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
@@ -162,4 +162,21 @@ show_tile: True
             </div>
         </div>
     </section>
+</section>
+<section>
+<h3> All Posts </h3>
+<ul>
+    <li><a href="https://www.latimes.com/science/story/2023-02-03/the-sounds-of-science" target="_blank" rel="noopener">The sounds of science</a> &mdash; Feb. 3, 2023</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-20/what-you-can-do-to-reduce-light-pollution#nt=0000016a-0e43-dffa-a76b-3f6bfa3f0002-showMedia-liI2promoMedium-contentFooter" target="_blank" rel="noopener">What you can do to reduce light pollution</a> -- Sept. 20, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-20/how-an-effort-to-reduce-fossil-fuel-use-led-to-another-environmental-problem-light-pollution" target="_blank" rel="noopener">How an effort to reduce fossil fuel use led to another environmental problem: light pollution</a> -- Sept. 20, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-03/jpl-tries-to-keep-voyager-from-hanging-up-on-the-worlds-longest-phone-call" target="_blank" rel="noopener">JPL tries to keep Voyager space probes from disconnecting the world’s longest phone call</a> -- Sept. 3, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-27/smoke-from-california-wildfires-puts-cats-at-risk-of-developing-deadly-blood-clots" target="_blank" rel="noopener">Smoke from California wildfires puts cats at risk of developing deadly blood clots</a> -- July 27, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-25/new-generation-of-scientists-to-commandeer-nasa-james-webb-space-telescope" target="_blank" rel="noopener">A new generation of scientists gets ready to commandeer the James Webb Space Telescope</a> -- July 25, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-12/nasa-james-webb-space-telescope-first-five-images" target="_blank" rel="noopener">Here’s what the James Webb Space Telescope has seen in just a week of looking</a> -- July 12, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-11/first-pictures-from-nasa-james-webb-space-telescope" target="_blank" rel="noopener">First image from NASA’s James Webb Space Telescope reveals thousands of galaxies in stunning detail</a> -- July 11, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-08/new-3d-printing-technique-can-make-autonomous-robots-in-a-single-step" target="_blank" rel="noopener">New 3-D printing technique can make autonomous robots in a single step</a> -- July 8, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-02/q-a-carver-mead-revolutionized-computers-can-he-do-the-same-for-physics" target="_blank" rel="noopener">Q&amp;A: Carver Mead revolutionized computers. Can he do the same for physics?</a> -- July 2, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-06-23/scientists-baffled-by-discovery-of-bacteria-that-ought-to-be-too-big-to-function" target="_blank" rel="noopener">Scientists baffled by discovery of bacteria that ought to be too big to function</a> -- June 23, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-06-10/coronavirus-infection-during-pregnancy-linked-to-brain-development-problems-in-babies" target="_blank" rel="noopener">Coronavirus infection during pregnancy linked to brain development problems in babies</a> -- June 10, 2022</li>
+</ul>
 </section>
