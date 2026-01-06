@@ -14,7 +14,7 @@ show_tile: True
 <section id="two" class="spotlights">
     <section>
         <a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
+            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature-2.jpg %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
@@ -31,7 +31,7 @@ show_tile: True
     </section>
     <section>
         <a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/latimes-logo.jpg %}" alt="" data-position="25% 25%" />
+            <img src="{% link assets/images/latimes-logo-2.jpg %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
@@ -106,7 +106,7 @@ show_tile: True
                 <header class="major">
                     <h3>Astrobites</h3>
                 </header>
-                <p>I am a regular author for Astrobites, a team of Astronomy graduate students who write and edit science summaries aimed at undergraduate students interested in learning more about the latest research in our field.</p>
+                <p>Between 2020-2022, I was a regular author & editor for Astrobites, which posts daily research summaries and happenings in the field of Astronomy.</p>
                 <ul class="actions">
                     <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
                     <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
