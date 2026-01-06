@@ -23,7 +23,7 @@ show_tile: True
                 </header>
                 <p>I'm the Spring 2024 News Writing Intern at <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature Magazine</a></p>
                 <ul class="actions">
-                    <li><a href="nature_posts.md" class="button">All Posts</a></li>
+                    <li><a href="nature_posts.html" class="button">All Posts</a></li>
                     <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
             </div>
