@@ -49,7 +49,7 @@ show_tile: True
             </div>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/sciam.png %}" alt="" data-position="center center" />
         </a>
@@ -65,7 +65,7 @@ show_tile: True
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <section>
         <a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/indiabioscience.jpg %}" alt="" data-position="top center" />
@@ -75,7 +75,7 @@ show_tile: True
                 <header class="major">
                     <h3>India Bioscience</h3>
                 </header>
-                <p><b> Science Journalism Internship, Summer 2019 </b> <br>
+                <p><b> Science Journalism Intern, Summer 2019 </b> <br>
                 In my first introduction to the craft of science writing, I wrote 3 news articles and 1 feature for India's foremost life sciences communication outlet.</p>
                 <ul class="actions">
                     <li><a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
@@ -133,7 +133,7 @@ show_tile: True
             </div>
         </div>
     </section> -->
-    <section>
+    <!-- <section>
         <a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/iscience.jpg %}" alt="" data-position="center center" />
         </a>
@@ -148,8 +148,8 @@ show_tile: True
                 </ul>
             </div>
         </div>
-    </section>
-    <section>
+    </section> -->
+    <!-- <section>
         <a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/misc.jpg %}" alt="" data-position="center center" />
         </a>
@@ -164,8 +164,8 @@ show_tile: True
                 </ul>
             </div>
         </div>
-    </section>
-</section>
+    </section> -->
+</section> 
 <section id="all posts">
   <div class="inner">
 <h2> All Posts </h2>
