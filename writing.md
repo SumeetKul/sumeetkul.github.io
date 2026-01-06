@@ -48,7 +48,7 @@ show_tile: True
     </section>
     <section>
         <a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/sciam.jpg %}" alt="" data-position="center center" />
+            <img src="{% link assets/images/sciam.png %}" alt="" data-position="center center" />
         </a>
         <div class="content">
             <div class="inner">
