@@ -114,7 +114,7 @@ show_tile: True
             </div>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/aasnova.jpg %}" alt="" data-position="25% 25%" />
         </a>
@@ -129,7 +129,7 @@ show_tile: True
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <section>
         <a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/iscience.jpg %}" alt="" data-position="center center" />
@@ -163,11 +163,12 @@ show_tile: True
         </div>
     </section>
 </section>
-<section>
+<section id="all posts">
+  <div class="inner">
 <h2> All Posts </h2>
-
+<br>
 <h3> The Los Angeles Times</h3>
-
+<br>
 <ul>
     <li><a href="https://www.latimes.com/science/story/2023-02-03/the-sounds-of-science" target="_blank" rel="noopener">The sounds of science</a> &mdash; Feb. 3, 2023</li>
     <li><a href="https://www.latimes.com/science/story/2022-09-20/what-you-can-do-to-reduce-light-pollution#nt=0000016a-0e43-dffa-a76b-3f6bfa3f0002-showMedia-liI2promoMedium-contentFooter" target="_blank" rel="noopener">What you can do to reduce light pollution</a> -- Sept. 20, 2022</li>
@@ -220,5 +221,5 @@ show_tile: True
     <li><a href="https://astrobites.org/2020/03/23/gravitational-wave-taxonomy/" target="_blank" rel="noopener">Gravitational Wave Taxonomy</a> &mdash; Mar 23, 2020</li>
     <li><a href="https://astrobites.org/2020/02/04/disturbed-naps-and-black-hole-mass-gaps/" target="_blank" rel="noopener">Disturbed Naps and Black Hole Mass Gaps</a> &mdash; Feb 4, 2020</li>
 </ul>
-
+</div>
 </section>
