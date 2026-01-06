@@ -14,7 +14,7 @@ show_tile: True
 <section id="two" class="spotlights">
     <section>
         <a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature-2.jpg %}" alt="" data-position="25% 25%" />
+            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
@@ -22,7 +22,7 @@ show_tile: True
                     <h3>Nature</h3>
                 </header>
                 <p><b> Spring News Writing Intern 2024 </b> <br>
-                <p>I reported stories covering breaking news, new research, science policy, scientific misconduct, and science in daily life spanning topics such as NSF budgets, NASA missions, cosmology, the solar eclipse, and AI at the 2024 Paris Olympics for Nature News.
+                I reported stories covering breaking news, new research, science policy, scientific misconduct, and science in daily life spanning topics such as NSF budgets, NASA missions, cosmology, the solar eclipse, and AI at the 2024 Paris Olympics for <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature News.</a></p>
                 <ul class="actions">
                     <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
@@ -31,17 +31,15 @@ show_tile: True
     </section>
     <section>
         <a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/latimes-logo-2.jpg %}" alt="" data-position="25% 25%" />
+            <img src="{% link assets/images/latimes-logo.jpg %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
                 <header class="major">
                     <h3>The Los Angeles Times</h3>
                 </header>
-                <p><b> AAAS Mass Media Fellowship 2022 </b> <br>
-            I reported 12 science news stories & features in 10 weeks, 4 of which featured on the
-            front page. For this, I interviewed over 30 sources including researchers, patients, and
-            public figures like Bill Nye.
+                <p><b> AAAS Mass Media Fellow 2022 </b> <br>
+                Wrote 12 science news stories and features in 10 weeks, four of which appeared on the front page. For this, I interviewed 30+ sources including researchers, patients, and public figures like Bill Nye.</p>
                 <ul class="actions">
                     <li><a href="latimes_posts.html" class="button">All Posts</a></li>
                     <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
@@ -49,33 +47,33 @@ show_tile: True
             </div>
         </div>
     </section>
-    <!-- <section>
-        <a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/sciam.png %}" alt="" data-position="center center" />
+    <section>
+        <a href="https://astrobites.org/author/skulkarni/" target="_blank" class="image" rel="noopener noreferrer">
+            <img src="{% link assets/images/astrobites.png %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
                 <header class="major">
-                    <h3>Scientific American</h3>
+                    <h3>Astrobites</h3>
                 </header>
-                <p><b> Mind the [Mass] Gap </b> Astronomers are getting closer to figuring out where the dividing line lies between neutron stars and black holes.<br>
-                Published in the Scientific American Observations blog, October 28, 2019.</p>
+                <p>Between 2020-2022, I was a regular author & editor for Astrobites, which posts daily research summaries and happenings in the field of Astronomy.</p>
                 <ul class="actions">
-                    <li><a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
+                    <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
+                    <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
             </div>
         </div>
-    </section> -->
+    </section>
     <section>
         <a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/indiabioscience.jpg %}" alt="" data-position="top center" />
+            <img src="{% link assets/images/indiabioscience.png %}" alt="" data-position="top center" />
         </a>
         <div class="content">
             <div class="inner">
                 <header class="major">
                     <h3>India Bioscience</h3>
                 </header>
-                <p><b> Science Journalism Intern, Summer 2019 </b> <br>
+                <p><b> Science Journalism Internship, Summer 2019 </b> <br>
                 In my first introduction to the craft of science writing, I wrote 3 news articles and 1 feature for India's foremost life sciences communication outlet.</p>
                 <ul class="actions">
                     <li><a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
@@ -99,41 +97,7 @@ show_tile: True
                 </ul>
             </div>
         </div>
-    </section> -->
-    <section>
-        <a href="https://astrobites.org/author/skulkarni/" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/astrobites.jpg %}" alt="" data-position="25% 25%" />
-        </a>
-        <div class="content">
-            <div class="inner">
-                <header class="major">
-                    <h3>Astrobites</h3>
-                </header>
-                <p>Between 2020-2022, I was a regular author & editor for Astrobites, which posts daily research summaries and happenings in the field of Astronomy.</p>
-                <ul class="actions">
-                    <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
-                    <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- <section>
-        <a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/aasnova.jpg %}" alt="" data-position="25% 25%" />
-        </a>
-        <div class="content">
-            <div class="inner">
-                <header class="major">
-                    <h3>AAS Nova</h3>
-                </header>
-                <p>Lack of Spacetime Squiggles Limit How Much a Pulsar Can Be Squashed.</p>
-                <ul class="actions">
-                    <li><a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                </ul>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section>
+     <section>
         <a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/iscience.jpg %}" alt="" data-position="center center" />
         </a>
@@ -165,7 +129,7 @@ show_tile: True
             </div>
         </div>
     </section> -->
-</section> 
+</section>
 <section id="all posts">
   <div class="inner">
 <h2> All Posts </h2>
