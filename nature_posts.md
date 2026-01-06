@@ -1,0 +1,27 @@
+---
+layout: post
+title: Nature stories
+description: Media Clips, Internships, and more...
+nav-menu: False
+show_tile: False
+---
+
+<h2> List of all <i>Nature</i> stories </h2>
+<section>
+    <ul>
+        <li><a href="https://www.nature.com/articles/d41586-024-02427-0" target="_blank" rel="noopener">Three ways AI is changing the 2024 Olympics for athletes and fans</a> -- 25 Jul 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-02143-9" target="_blank" rel="noopener">The Milky Way is ‘less weird’ than we thought</a> -- 28 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01764-4" target="_blank" rel="noopener">AI and Euro 2024: VAR is shaking up football — and it’s not going away</a> -- 13 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01621-4" target="_blank" rel="noopener">Why cicadas shriek so loudly and more: your questions answered</a> -- 03 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01584-6" target="_blank" rel="noopener">The cicadas are here! Why US researchers are swarming to study them</a> -- 31 May 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01332-w" target="_blank" rel="noopener">‘Milestone’ discovery as JWST confirms atmosphere on an Earth-like exoplanet</a> -- 08 May 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01272-5" target="_blank" rel="noopener">The science of 3 Body Problem: what’s fact and what’s fiction?</a> -- 30 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01109-1" target="_blank" rel="noopener">NASA admits plan to bring Mars rocks to Earth won’t work — and seeks fresh ideas</a> -- 16 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01054-z" target="_blank" rel="noopener">Total solar eclipse 2024: what dazzled scientists</a> -- 10 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00973-1" target="_blank" rel="noopener">Total solar eclipse 2024: how it will help scientists to study the Sun</a> -- 03 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00977-x" target="_blank" rel="noopener">Right- or left-handed? Protein in embryo cells might help decide</a> -- 02 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00875-2" target="_blank" rel="noopener">How papers with doctored images can affect scientific reviews</a> -- 28 Mar 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00594-8" target="_blank" rel="noopener">How dwarf galaxies lit up the Universe after the Big Bang</a> -- 28 Feb 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00508-8" target="_blank" rel="noopener">Earthquakes are most deadly in these unexpected countries</a> -- 26 Feb 2024</li>
+    </ul>
+</section>
