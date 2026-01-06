@@ -14,7 +14,7 @@ show_tile: True
 <section id="two" class="spotlights">
     <section>
         <a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/nature.jpg %}" alt="" max-height:300px data-position="25% 25%" />
+            <img style="max-height: 300px" src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
