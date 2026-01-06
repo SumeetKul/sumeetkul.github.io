@@ -21,9 +21,9 @@ show_tile: True
                 <header class="major">
                     <h3>Nature</h3>
                 </header>
-                <p>I was the Spring 2024 News Writing Intern at <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature Magazine</a></p>
+                <p><b> Spring News Writing Intern 2024 </b> <br>
+                <p>I reported stories covering breaking news, new research, science policy, scientific misconduct, and science in daily life spanning topics such as NSF budgets, NASA missions, cosmology, the solar eclipse, and AI at the 2024 Paris Olympics for Nature News.
                 <ul class="actions">
-                    <li><a href="nature_posts.md" class="button">All Posts</a></li>
                     <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
             </div>
@@ -38,7 +38,10 @@ show_tile: True
                 <header class="major">
                     <h3>The Los Angeles Times</h3>
                 </header>
-                <p>I was a <a href="https://www.aaas.org/programs/mass-media-fellowship" target="_blank" rel="noopener noreferrer">AAAS Mass Media Fellow</a> at the <i>Los Angeles Times</i> in Summer 2022.</p>
+                <p><b> AAAS Mass Media Fellowship 2022 </b> <br>
+            I reported 12 science news stories & features in 10 weeks, 4 of which featured on the
+            front page. For this, I interviewed over 30 sources including researchers, patients, and
+            public figures like Bill Nye.
                 <ul class="actions">
                     <li><a href="latimes_posts.html" class="button">All Posts</a></li>
                     <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
@@ -81,7 +84,7 @@ show_tile: True
             </div>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/thewire.jpg %}" alt="" data-position="center center" />
         </a>
@@ -96,7 +99,7 @@ show_tile: True
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <section>
         <a href="https://astrobites.org/author/skulkarni/" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/astrobites.jpg %}" alt="" data-position="25% 25%" />
