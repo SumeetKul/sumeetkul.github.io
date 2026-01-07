@@ -2,7 +2,7 @@
 layout: landing
 title: Writing
 landing-title: Science Writing
-description: Media Clips, Internships, and more...
+description: Internships & Science Writing Clips
 image: assets/images/aaasmmf-desk.jpg
 tag: 2
 nav-menu: True
@@ -39,9 +39,8 @@ show_tile: True
                     <h3>The Los Angeles Times</h3>
                 </header>
                 <p><b> AAAS Mass Media Fellow 2022 </b> <br>
-                Wrote 12 science news stories and features in 10 weeks, four of which appeared on the front page. For this, I interviewed 30+ sources including researchers, patients, and public figures like Bill Nye.</p>
+                I wrote 12 science news stories and features in 10 weeks, four of which appeared on the front page. For this, I interviewed 30+ sources including researchers, patients, and public figures like Bill Nye.</p>
                 <ul class="actions">
-                    <li><a href="latimes_posts.html" class="button">All Posts</a></li>
                     <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
             </div>
@@ -58,7 +57,6 @@ show_tile: True
                 </header>
                 <p>Between 2020-2022, I was a regular author & editor for Astrobites, which posts daily research summaries and happenings in the field of Astronomy.</p>
                 <ul class="actions">
-                    <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
                     <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
             </div>
@@ -76,43 +74,11 @@ show_tile: True
                 <p><b> Science Journalism Internship, Summer 2019 </b> <br>
                 In my first introduction to the craft of science writing, I wrote 3 news articles and 1 feature for India's foremost life sciences communication outlet.</p>
                 <ul class="actions">
-                    <li><a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="button" rel="noopener noreferrer">All Posts</a></li>
                     <li><a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
                 </ul>
             </div>
         </div>
     </section>
-    <!-- <section>
-        <a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/thewire.jpg %}" alt="" data-position="center center" />
-        </a>
-        <div class="content">
-            <div class="inner">
-                <header class="major">
-                    <h3>The Wire</h3>
-                </header>
-                <p>Scientists Discover How a Tiny Freshwater Animal Performs a Somersault. Published April 4, 2021.</p>
-                <ul class="actions">
-                    <li><a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                </ul>
-            </div>
-        </div>
-     <section>
-        <a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/iscience.jpg %}" alt="" data-position="center center" />
-        </a>
-        <div class="content">
-            <div class="inner">
-                <header class="major">
-                    <h3>I, Science</h3>
-                </header>
-                <p><b> Extreme Energies </b> <br> Examining Gravitational Waves through the prism of Energy, for <i>I, Science</i>, the science magazine of Imperial College, London.</p>
-                <ul class="actions">
-                    <li><a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                </ul>
-            </div>
-        </div>
-    </section> -->
     <!-- <section>
         <a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" class="image" rel="noopener noreferrer">
             <img src="{% link assets/images/misc.jpg %}" alt="" data-position="center center" />
@@ -132,26 +98,65 @@ show_tile: True
 </section>
 <section id="all posts">
   <div class="inner">
-<h2> All Posts </h2>
-<br>
-<h3> The Los Angeles Times</h3>
-<br>
+<h2> All Clips </h2>
+<h3> <i> Nature </i> </h3>
+    <ul>
+        <li><a href="https://www.nature.com/articles/d41586-024-02427-0" target="_blank" rel="noopener">Three ways AI is changing the 2024 Olympics for athletes and fans</a> &mdash; 25 Jul 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-02143-9" target="_blank" rel="noopener">The Milky Way is ‘less weird’ than we thought</a> &mdash; 28 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01764-4" target="_blank" rel="noopener">AI and Euro 2024: VAR is shaking up football — and it’s not going away</a> &mdash; 13 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01621-4" target="_blank" rel="noopener">Why cicadas shriek so loudly and more: your questions answered</a> &mdash; 03 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01584-6" target="_blank" rel="noopener">The cicadas are here! Why US researchers are swarming to study them</a> &mdash; 31 May 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01332-w" target="_blank" rel="noopener">‘Milestone’ discovery as JWST confirms atmosphere on an Earth-like exoplanet</a> &mdash; 08 May 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01272-5" target="_blank" rel="noopener">The science of 3 Body Problem: what’s fact and what’s fiction?</a> &mdash; 30 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01109-1" target="_blank" rel="noopener">NASA admits plan to bring Mars rocks to Earth won’t work — and seeks fresh ideas</a> &mdash; 16 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01054-z" target="_blank" rel="noopener">Total solar eclipse 2024: what dazzled scientists</a> --&mdash;10 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00973-1" target="_blank" rel="noopener">Total solar eclipse 2024: how it will help scientists to study the Sun</a> &mdash; 03 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00977-x" target="_blank" rel="noopener">Right- or left-handed? Protein in embryo cells might help decide</a> &mdash; 02 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00875-2" target="_blank" rel="noopener">How papers with doctored images can affect scientific reviews</a> &mdash; 28 Mar 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00594-8" target="_blank" rel="noopener">How dwarf galaxies lit up the Universe after the Big Bang</a> &mdash; 28 Feb 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00508-8" target="_blank" rel="noopener">Earthquakes are most deadly in these unexpected countries</a> &mdash; 26 Feb 2024</li>
+    </ul>
+
+<h3> <i> The Los Angeles Times </i> </h3>
+
 <ul>
     <li><a href="https://www.latimes.com/science/story/2023-02-03/the-sounds-of-science" target="_blank" rel="noopener">The sounds of science</a> &mdash; Feb. 3, 2023</li>
-    <li><a href="https://www.latimes.com/science/story/2022-09-20/what-you-can-do-to-reduce-light-pollution#nt=0000016a-0e43-dffa-a76b-3f6bfa3f0002-showMedia-liI2promoMedium-contentFooter" target="_blank" rel="noopener">What you can do to reduce light pollution</a> -- Sept. 20, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-09-20/how-an-effort-to-reduce-fossil-fuel-use-led-to-another-environmental-problem-light-pollution" target="_blank" rel="noopener">How an effort to reduce fossil fuel use led to another environmental problem: light pollution</a> -- Sept. 20, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-09-03/jpl-tries-to-keep-voyager-from-hanging-up-on-the-worlds-longest-phone-call" target="_blank" rel="noopener">JPL tries to keep Voyager space probes from disconnecting the world’s longest phone call</a> -- Sept. 3, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-07-27/smoke-from-california-wildfires-puts-cats-at-risk-of-developing-deadly-blood-clots" target="_blank" rel="noopener">Smoke from California wildfires puts cats at risk of developing deadly blood clots</a> -- July 27, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-07-25/new-generation-of-scientists-to-commandeer-nasa-james-webb-space-telescope" target="_blank" rel="noopener">A new generation of scientists gets ready to commandeer the James Webb Space Telescope</a> -- July 25, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-07-12/nasa-james-webb-space-telescope-first-five-images" target="_blank" rel="noopener">Here’s what the James Webb Space Telescope has seen in just a week of looking</a> -- July 12, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-07-11/first-pictures-from-nasa-james-webb-space-telescope" target="_blank" rel="noopener">First image from NASA’s James Webb Space Telescope reveals thousands of galaxies in stunning detail</a> -- July 11, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-07-08/new-3d-printing-technique-can-make-autonomous-robots-in-a-single-step" target="_blank" rel="noopener">New 3-D printing technique can make autonomous robots in a single step</a> -- July 8, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-07-02/q-a-carver-mead-revolutionized-computers-can-he-do-the-same-for-physics" target="_blank" rel="noopener">Q&amp;A: Carver Mead revolutionized computers. Can he do the same for physics?</a> -- July 2, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-06-23/scientists-baffled-by-discovery-of-bacteria-that-ought-to-be-too-big-to-function" target="_blank" rel="noopener">Scientists baffled by discovery of bacteria that ought to be too big to function</a> -- June 23, 2022</li>
-    <li><a href="https://www.latimes.com/science/story/2022-06-10/coronavirus-infection-during-pregnancy-linked-to-brain-development-problems-in-babies" target="_blank" rel="noopener">Coronavirus infection during pregnancy linked to brain development problems in babies</a> -- June 10, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-20/what-you-can-do-to-reduce-light-pollution#nt=0000016a-0e43-dffa-a76b-3f6bfa3f0002-showMedia-liI2promoMedium-contentFooter" target="_blank" rel="noopener">What you can do to reduce light pollution</a> &mdash; Sept. 20, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-20/how-an-effort-to-reduce-fossil-fuel-use-led-to-another-environmental-problem-light-pollution" target="_blank" rel="noopener">How an effort to reduce fossil fuel use led to another environmental problem: light pollution</a> &mdash; Sept. 20, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-03/jpl-tries-to-keep-voyager-from-hanging-up-on-the-worlds-longest-phone-call" target="_blank" rel="noopener">JPL tries to keep Voyager space probes from disconnecting the world’s longest phone call</a> &mdash; Sept. 3, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-27/smoke-from-california-wildfires-puts-cats-at-risk-of-developing-deadly-blood-clots" target="_blank" rel="noopener">Smoke from California wildfires puts cats at risk of developing deadly blood clots</a> &mdash; July 27, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-25/new-generation-of-scientists-to-commandeer-nasa-james-webb-space-telescope" target="_blank" rel="noopener">A new generation of scientists gets ready to commandeer the James Webb Space Telescope</a> &mdash; July 25, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-12/nasa-james-webb-space-telescope-first-five-images" target="_blank" rel="noopener">Here’s what the James Webb Space Telescope has seen in just a week of looking</a> &mdash; July 12, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-11/first-pictures-from-nasa-james-webb-space-telescope" target="_blank" rel="noopener">First image from NASA’s James Webb Space Telescope reveals thousands of galaxies in stunning detail</a> &mdash; July 11, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-08/new-3d-printing-technique-can-make-autonomous-robots-in-a-single-step" target="_blank" rel="noopener">New 3-D printing technique can make autonomous robots in a single step</a> &mdash; July 8, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-02/q-a-carver-mead-revolutionized-computers-can-he-do-the-same-for-physics" target="_blank" rel="noopener">Q&amp;A: Carver Mead revolutionized computers. Can he do the same for physics?</a> &mdash; July 2, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-06-23/scientists-baffled-by-discovery-of-bacteria-that-ought-to-be-too-big-to-function" target="_blank" rel="noopener">Scientists baffled by discovery of bacteria that ought to be too big to function</a> &mdash; June 23, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-06-10/coronavirus-infection-during-pregnancy-linked-to-brain-development-problems-in-babies" target="_blank" rel="noopener">Coronavirus infection during pregnancy linked to brain development problems in babies</a> &mdash; June 10, 2022</li>
 </ul>
 
-<h3>Astrobites</h3>
+<h3> <i> Scientific American </i> </h3>
+<ul>
+<li>(Opinion Essay) <a href="https://www.scientificamerican.com/blog/observations/mind-the-mass-gap/" target="_blank" rel="noopener noreferrer">Mind the Mass Gap: Astronomers are getting closer to figuring out where the dividing line lies between neutron stars and black holes </a> &mdash; October 28, 2019</li>
+<br>
+<h5> Cross-posted from Nature:</h5>
+<li><a href="https://www.scientificamerican.com/article/in-a-first-jwst-confirms-an-atmosphere-on-a-rocky-exoplanet/" target="_blank" rel="noopener">In a First, JWST Confirms an Atmosphere on a Rocky Exoplanet</a> &mdash; 08 May 2024</li>
+<li><a href="https://www.scientificamerican.com/article/the-science-of-3-body-problem-whats-fact-and-whats-fiction/" target="_blank" rel="noopener">The science of 3 Body Problem: what’s fact and what’s fiction?</a> &mdash; 30 Apr 2024</li>
+<li><a href="https://www.scientificamerican.com/article/dwarf-galaxies-set-the-universe-alight-after-the-big-bang/" target="_blank" rel="noopener">Dwarf Galaxies Set the Universe Alight after the Big Bang</a> &mdash; 28 Feb 2024</li>
+
+</ul>
+<h3> <i> The Wire </i> </h3>
+<ul>
+<li><a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" rel="noopener noreferrer">Scientists Discover How a Tiny Freshwater Animal Performs a Somersault </a> &mdash; Jan 8, 2021</li>
+
+</ul>
+
+<h3> <i> I, Science </i> </h3>
+<h5> Science Magazine of Imperial College, London</h5>
+<ul>
+<li><a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" rel="noopener noreferrer">Extreme Energies: Gravitational Waves </a> &mdash; Fall 2019</li>
+</ul>
+
+<h3> <i> Astrobites </i> </h3>
 
 <ul>
     <li><a href="https://astrobites.org/2024/10/06/part-1-key-results-from-the-desi-dr2/" target="_blank" rel="noopener">Part 1: Key Results from the DESI DR2</a> &mdash; Oct 6, 2024</li>
@@ -188,5 +193,12 @@ show_tile: True
     <li><a href="https://astrobites.org/2020/03/23/gravitational-wave-taxonomy/" target="_blank" rel="noopener">Gravitational Wave Taxonomy</a> &mdash; Mar 23, 2020</li>
     <li><a href="https://astrobites.org/2020/02/04/disturbed-naps-and-black-hole-mass-gaps/" target="_blank" rel="noopener">Disturbed Naps and Black Hole Mass Gaps</a> &mdash; Feb 4, 2020</li>
 </ul>
-</div>
-</section>
+
+<h3> <i> AAS Nova </i> </h3>
+<h5> (Selected from Astrobites)
+
+<h3> <i> SciWorthy </i> </h3>
+<ul>
+<li><a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" rel="noopener noreferrer">Using Gas Bubbles in Lava to Predict Ancient Air Pressure </a> &mdash; May 24, 2018</li>
+
+
