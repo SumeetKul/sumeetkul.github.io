@@ -18,11 +18,12 @@ show_tile: true
 
 <!-- Content -->
 <h2 id="content">About Me</h2>
-<p><span class="image right"><img src="{% link assets/images/sumeet3.jpg %}" alt="Sumeet Kulkarni" class="profile-image-round" /></span>I'm a graduate researcher, science writer, and astrophotographer based in Oxford, MS. As a Physics PhD candidate at the University of Mississippi, I research various aspects of gravitational wave astrophysics as well as the noise characterization of the LIGO detectors. I'm a current AAAS Mass Media Fellow at the Los Angeles Times, and my science writing has also been featured in Scientific American, Astrobites, and India Bioscience. I run a science cafe featuring monthly public talks for the local community here in Oxford, MS, and an accompanying podcast called Ssippin' Science. My other interests include playing musical instruments, reading, cooking, cats and coffee.</p>
-
+<p><span class="image right"><img src="{% link assets/images/sumeet3.jpg %}" alt="Sumeet Kulkarni"></span>I'm an astrophysicist-turned-science communicator, educator and an astrophotographer based in Oxford, MS. My writing has featured in <i>Nature Magazine, The Los Angeles Times, Scientific American</i> and <i>Astrobites</i>. I've also written and directed videos for the science YouTube channel <i>Veritasium</i>. 
+<p>
+Currently, I'm teaching undergraduate integrated science classes to non-STEM majors as an instructor with the college of liberal arts at the University of Mississippi. My past research involved various aspects of gravitational wave astrophysics as well as the noise characterization of the Laser Interferometer Gravitational-wave Observatory (LIGO) detectors. </p>
 
 You can also find me on the following:
-<br>
+<br><br>
 
  <footer id="footer">
                 <div class="inner">
@@ -62,3 +63,4 @@ You can also find me on the following:
         </p>
     </div>
 </section>
+
