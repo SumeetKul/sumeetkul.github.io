@@ -21,7 +21,7 @@ show_tile: True
                 <header class="major">
                     <h3>Nature</h3>
                 </header>
-                <p><b> Spring News Writing Intern 2024 </b> <br>
+                <p><b> Spring News Writing Internship 2024 </b> <br>
                 I reported stories covering breaking news, new research, science policy, scientific misconduct, and science in daily life spanning topics such as NSF budgets, NASA missions, cosmology, the solar eclipse, and AI at the 2024 Paris Olympics for <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature News.</a></p>
                 <ul class="actions">
                     <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
@@ -38,7 +38,7 @@ show_tile: True
                 <header class="major">
                     <h3>The Los Angeles Times</h3>
                 </header>
-                <p><b> AAAS Mass Media Fellow 2022 </b> <br>
+                <p><b> AAAS Mass Media Fellowship 2022 </b> <br>
                 I wrote 12 science news stories and features in 10 weeks, four of which appeared on the front page. For this, I interviewed 30+ sources including researchers, patients, and public figures like Bill Nye.</p>
                 <ul class="actions">
                     <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
