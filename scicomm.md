@@ -64,9 +64,11 @@ nav-order: 4
 <br>
 
 
-<h4> Other Activities </h4>
+<!-- <h4> Other Activities </h4>
 <p>
 <ul>
 <li> I am a co-editor of the <a href="https://humansofligo.blogspot.com/" target="_blank" rel="noopener noreferrer">Humans of LIGO</a> blog, an initiative which celebrates individuals in the LIGO Scientific Collaboration, comprising of more than 1300 scientists and engineers from over 100 institutions and 18 countries worldwide.</li>
 <li> Halloween spooky physics night: I dress up in nerdy costumes, serve liquid nitrogen candy and conduct physics demos like `the pumpkin drop' at this family-friendly event attended by over 300 locals every year at the UM Department of Physics and Astronomy.</li>
-</ul>
+</ul> -->
+
+

@@ -15,7 +15,7 @@ country: United States of America
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 7
 
 # navigation menu
 nav-menu:
@@ -33,6 +33,8 @@ nav-menu:
     url: /scicomm.html   # Adjust the URL based on the actual file path
   - title: Research
     url: /research.html  # or /research/ if it's in a subdirectory
+  - title: Multimedia
+    url: /multimedia.md  # or /research/ if it's in a subdirectory
 
 
 

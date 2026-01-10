@@ -104,6 +104,7 @@
 			}
 		}
 
+		&.style0 { &:after { display: none; } }
 		&.style1 { &:after { background-color: _palette(accent1); } }
 		&.style2 { &:after { background-color: _palette(accent2); } }
 		&.style3 { &:after { background-color: _palette(accent3); } }
@@ -172,6 +173,68 @@
 
 			&.major {
 				@include padding(6em, 0, (2em, 0, 0, 0));
+			}
+		}
+	}
+
+/* Parallax Banner Section */
+	.banner-parallax {
+		@include vendor('align-items', 'center');
+		@include vendor('display', 'flex');
+		@include padding(4em, 0);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		cursor: default;
+		height: 80vh;
+		max-height: 32em;
+		min-height: 22em;
+		position: relative;
+
+		&:after {
+			@include vendor('transition', 'opacity #{_duration(banner)} ease');
+			@include vendor('pointer-events', 'none');
+			background-color: _palette(bg);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.85;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		&.style0 { &:after { display: none; } }
+		&.style1 { &:after { background-color: _palette(accent1); } }
+		&.style2 { &:after { background-color: _palette(accent2); } }
+		&.style3 { &:after { background-color: _palette(accent3); } }
+		&.style4 { &:after { background-color: _palette(accent4); } }
+		&.style5 { &:after { background-color: _palette(accent5); } }
+		&.style6 { &:after { background-color: _palette(accent6); } }
+
+		> .inner {
+			position: relative;
+			z-index: 2;
+			margin: 0 auto;
+			max-width: 65em;
+			width: calc(100% - 6em);
+		}
+
+		@include breakpoint(large) {
+			background-attachment: scroll;
+		}
+
+		@include breakpoint(small) {
+			@include padding(3em, 0);
+			height: auto;
+			max-height: none;
+			min-height: 0;
+
+			> .inner {
+				width: calc(100% - 3em);
 			}
 		}
 	}

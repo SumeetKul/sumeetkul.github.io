@@ -1,13 +1,12 @@
 <div class="embed-spotify-episode">
     <iframe
-        title="Embedded Spotify episode player"
+        title="{{ include.title | default: 'Spotify episode player' }}"
         src="https://open.spotify.com/embed/episode/{{ include.id }}?utm_source=generator"
         width="100%"
-        height="152" <!-- You can adjust this height or make it configurable, e.g., {{ include.height | default: '152' }} -->
+        height="{{ include.height | default: '152' }}"
+        style="border-radius: 12px; border: 0;"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
     </iframe>
 </div>
-
-
