@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: landing
 title: Multimedia
 description: Filmmaking, Podcasting, and more...
 image: assets/images/multimedia.jpg
+centering: bottom
 tag: 4
 nav-menu: True
 show_tile: True
@@ -13,7 +14,6 @@ nav-order: 5
 <section class="banner-parallax style0" style="background-image: url('/assets/images/QRcode.jpg');">
     <div class="inner">
         <h1>Veritasium</h1>
-        <p>[Under construction]</p>
     </div>
 </section>
 
@@ -26,10 +26,10 @@ nav-order: 5
         {% include YouTubePlayer.html id="w5ebcowAJD8" %}     
         <p><b>Bonus:</b> Do you want to play around and make your own QR code as seen in the video? Here's <a href="https://docs.google.com/spreadsheets/d/17vYstucP5xs9XRZfcAKSkuYFFoShZs4SyTbGM3Mnw_I/edit?usp=sharing">the spreadsheet</a> we used that gives you step-by-step instructions! </p>
         <br> <p> My second video was a deep dive into Alphafold 2: Google Deepmind's protein folding algorithm that won the first-ever Nobel Prize for an AI breakthrough. Open up the black box and watch how AI solved a seemingly impossible problem that puzzled biologists for decades:</p>
-    {% include YouTubePlayer.html id="P_fHJIYENdI" %} <br><br>
+    {% include YouTubePlayer.html id="P_fHJIYENdI" %} 
     </div>
 </section>
-
+<hr>
 
 <!-- First Parallax Section -->
 <section class="banner-parallax style0" style="background-image: url('/assets/images/tetons_dawn.jpg');">

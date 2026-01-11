@@ -12,10 +12,10 @@
 
         {% include header.html %}
 
-        <section id="banner" class="style2">
+        <section id="banner" class="style{{page.tag}}" style="min-height: 100vh">
             <div class="inner">
                 <span class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="" data-position={{page.centering}}>
                 </span>
                 <header class="major">
 
@@ -24,7 +24,7 @@
                 </header>
                 <div class="content">
 
-                    {{ page.description }}
+                    {{ page.description }} 
 
                 </div>
             </div>

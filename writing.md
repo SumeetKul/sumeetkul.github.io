@@ -4,6 +4,7 @@ title: Writing
 landing-title: Science Writing
 description: Internships & Science Writing Clips
 image: assets/images/aaasmmf-desk.jpg
+centering: center
 tag: 2
 nav-menu: True
 nav-order: 3

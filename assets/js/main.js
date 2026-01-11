@@ -231,7 +231,10 @@
 					$image = $this.find('.image'), $img = $image.find('img');
 
 				// Parallax.
-					$this._parallax(0.275);
+					if ($image.length > 0 && $img.data('position'))
+						$this.css('background-position', $img.data('position'));
+					else
+						$this._parallax(0.275);
 
 				// Image.
 					if ($image.length > 0) {

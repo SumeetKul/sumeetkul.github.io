@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: landing
 title: Research
 description: The Spacetime Symphony...
-image: assets/images/gw170817.jpg
+image: assets/images/research-2.jpg
+centering: right bottom
 tag: 3
 nav-menu: true
 show_tile: true

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Astrophotography
 description: Capturing the Night Sky
 image: assets/images/astrophoto_collage.png
@@ -9,16 +9,16 @@ nav-order: 6
 show_tile: true
 ---
 
-<!-- Main -->
+<!-- Main
 <div id="main" class="alt" display:inline-block>
-<span class="image fit"><img src="{% link assets/images/astrophoto_collage.png %}" alt="" /></span>
+<span class="image fit"><img src="{% link assets/images/astrophoto_collage.png %}" alt="" /></span> -->
 
 
 <!-- One -->
 <section id="one">
         <div class="inner">
 
-<h4>Astrophotography</h4>
+<!-- <h4>Astrophotography</h4> -->
 
 <p>During the Covid-19 lockdown in Summer '20, I was fortunate to have some equipment and access to telescopes to seek solitary solace in clicking beautiful nighttime pictures of starry skies and various cosmic objects -  I haven't looked down since :) Astrophotography is now a serious and extremely fulfilling hobby of mine. I have tried to chase a full range of targets: the Milky Way band, star clusters and constellations, colorful Nebulae, Comet NEOWISE, various Planets, Zoom-ins into the Moon's craters as well as catching the Full Moon against various landscapes, Sunspots and even the International Space Station!</p> 
 
