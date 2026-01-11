@@ -13,14 +13,20 @@ nav-order: 5
 <section class="banner-parallax style0" style="background-image: url('/assets/images/QRcode.jpg');">
     <div class="inner">
         <h1>Veritasium</h1>
-        <p>[Under construction]]</p>
+        <p>[Under construction]</p>
     </div>
 </section>
 
 <!-- Regular content here -->
 <section class="wrapper">
     <div class="inner">
-        <p>Regular text content...</p>
+        <p>Between 2024-25, I wrote and directed two videos for the science YouTube channel <i>Veritasium</i>, created by Dr. Derek Muller. Both videos have gained 9M+ views on YouTube. I worked with a talented team of researchers, animators, and video editors to demystify two complex areas of science in an engaging and entertaining manner.
+        <br><br>
+        The first video deciphered QR codes, the intriguing checkerboard patterns that have taken over the world. Learn how QR codes work here, alongside the fascinating history behind their development: </p>
+        {% include YouTubePlayer.html id="w5ebcowAJD8" %}     
+        <p><b>Bonus:</b> Do you want to play around and make your own QR code as seen in the video? Here's <a href="https://docs.google.com/spreadsheets/d/17vYstucP5xs9XRZfcAKSkuYFFoShZs4SyTbGM3Mnw_I/edit?usp=sharing">the spreadsheet</a> we used that gives you step-by-step instructions! </p>
+        <br> <p> My second video was a deep dive into Alphafold 2: Google Deepmind's protein folding algorithm that won the first-ever Nobel Prize for an AI breakthrough. Open up the black box and watch how AI solved a seemingly impossible problem that puzzled biologists for decades:</p>
+    {% include YouTubePlayer.html id="P_fHJIYENdI" %} <br><br>
     </div>
 </section>
 
