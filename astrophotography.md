@@ -1,7 +1,8 @@
 ---
 layout: landing
 title: Astrophotography
-description: Capturing the Night Sky
+description: Jewels in the Night Sky
+scrolline: Jewels in the Night Sky <br> Scroll down for more... &dArr;
 image: assets/images/astrophoto_collage.png
 tag: 6
 nav-menu: true

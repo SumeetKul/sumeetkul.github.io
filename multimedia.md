@@ -2,6 +2,7 @@
 layout: landing
 title: Multimedia
 description: Filmmaking, Podcasting, and more...
+scrolline: Scroll down to read about my Audio / Visual work &dArr;
 image: assets/images/multimedia.jpg
 centering: bottom
 tag: 4
@@ -13,7 +14,7 @@ nav-order: 5
 <!-- Veritasium -->
 <section class="banner-parallax style0" style="background-image: url('/assets/images/QRcode.jpg');">
     <div class="inner">
-        <h1>Veritasium</h1>
+        <h1 style="background-color: rgba(35, 33, 33, 0.75); padding: 10px;">Veritasium</h1>
     </div>
 </section>
 
@@ -34,7 +35,7 @@ nav-order: 5
 <!-- First Parallax Section -->
 <section class="banner-parallax style0" style="background-image: url('/assets/images/tetons_dawn.jpg');">
     <div class="inner">
-        <h1>Jackson Wild Media Lab</h1>
+        <h1 style="background-color: rgba(35, 33, 33, 0.75); padding: 10px;">Jackson Wild Media Lab</h1>
         <p>[Under construction]]</p>
     </div>
 </section>
@@ -49,7 +50,7 @@ nav-order: 5
 <!-- Second Parallax Section -->
 <section class="banner-parallax style0" style="background-image: url('/assets/images/scicafe.jpg');">
     <div class="inner">
-        <h1>Ssippin' Science Podcast</h1>
+        <h1 style="background-color: rgba(35, 33, 33, 0.75); padding: 10px;">Ssippin' Science Podcast</h1>
     </div>
 </section>
 

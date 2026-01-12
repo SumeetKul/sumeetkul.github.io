@@ -4,8 +4,8 @@ title: Science Communication
 description: 
 image: assets/images/scicomm_bns.jpg
 tag: 5
-nav-menu: true
-show_tile: true
+nav-menu: False
+show_tile: False
 nav-order: 4
 ---
 

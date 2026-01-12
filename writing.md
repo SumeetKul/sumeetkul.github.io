@@ -3,6 +3,7 @@ layout: landing
 title: Writing
 landing-title: Science Writing
 description: Internships & Science Writing Clips
+scrolline: Scroll down &dArr; to read about my science journalism internships and a full list of science writing clips.
 image: assets/images/aaasmmf-desk.jpg
 centering: center
 tag: 2
