@@ -34,7 +34,7 @@ nav-menu:
   - title: Research
     url: /research.html  # or /research/ if it's in a subdirectory
   - title: Multimedia
-    url: /multimedia.md  # or /research/ if it's in a subdirectory
+    url: /multimedia.html  # or /research/ if it's in a subdirectory
 
 
 

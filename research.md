@@ -13,13 +13,6 @@ nav-order: 4
 
 
 <!-- Main -->
-<div id="main" class="alt" display:inline-block>
-
-
-<video id="background-video" autoplay loop muted playsinline poster="../assets/images/bbhspins_poster.mp4">
-<source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
-</video>
-    
 <style>
 #background-video {
   width: 100vw;
@@ -33,6 +26,11 @@ nav-order: 4
   z-index: -1;
 }
 </style> 
+<div id="main" class="alt" style="display:inline-block">
+
+<video id="background-video" autoplay loop muted playsinline poster="../assets/images/bbhspins_poster.png">
+<source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
+</video>
 
 
 <!-- One -->

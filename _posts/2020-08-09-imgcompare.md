@@ -48,4 +48,4 @@ This is where Rubin comes in.
 ### Rubin's view
 Despite the size difference, it's remarkable how closely this giant astronomical telescope functions like an astrophotographer's camera. It even takes pictures in 30-second exposures, which is exactly the maximum limit my camera allows (telescopes normally expose images for hours at a time in order to collect more light and "look deeper" into the universe). Rubin's action plan is to quickly sweep through photograph large swaths of the sky and make timelapse movies that can identify what all in the sky is *changing*: think nearby asteroids, variable stars, and exploding supernovae. But at the same time, it's able to peer deep into
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="1000" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6ecac66b-65a7-11f0-bb24-0936e1cb08fb"></iframe>
+<iframe frameborder="0" class="juxtapose" width="100%" height="1000" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6ecac66b-65a7-11f0-bb24-0936e1cb08fb" loading="lazy"></iframe>
