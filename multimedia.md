@@ -43,8 +43,10 @@ nav-order: 5
 <!-- Regular content here -->
 <section class="wrapper">
     <div class="inner">
-        <p>Regular text content...</p>
+        <p>I was selected as a 2025 Fellow at the Jackson Wild Media Lab. Over the course of five action-packed days, I trained in operating cinematic cameras, story-boarding, and video editing using Adobe Premiere. Within this short timeline, we also produced a 5-minute film for a client---a researcher who studies plankton in the alpine lakes of the Teton mountains in Wyoming. </p>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1123712786?h=ae909a8f54&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Plankton At The Peak"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     </div>
+
 </section>
 
 <!-- Second Parallax Section -->
