@@ -3,7 +3,7 @@ layout: landing
 title: Astrophotography
 description: Jewels in the Night Sky
 scrolline: Jewels in the Night Sky <br> Scroll down for more... &dArr;
-image: assets/images/astrophoto_collage.png
+image: assets/images/astro_collage.jpeg
 tag: 6
 nav-menu: true
 nav-order: 6

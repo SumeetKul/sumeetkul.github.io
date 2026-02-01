@@ -5,6 +5,7 @@ description: TBD
 date: 2020-07-10
 permalink: /blog/lagoon/
 tags: [astrophotography]
+published: false
 ---
 ## Me vs The World's Largest Digital Camera
 

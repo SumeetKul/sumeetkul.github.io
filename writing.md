@@ -161,31 +161,22 @@ show_tile: True
 <h3> <i> Astrobites </i> </h3>
 
 <ul>
-    <li><a href="https://astrobites.org/2024/10/06/part-1-key-results-from-the-desi-dr2/" target="_blank" rel="noopener">Part 1: Key Results from the DESI DR2</a> &mdash; Oct 6, 2024</li>
+    <li><a href="https://astrobites.org/2023/11/08/guide-to-gravitational-waves/" target="_blank" rel="noopener">The Astrobites' Guide to Gravitational Waves</a> &mdash; Nov 8, 2023</li>
+    <li><a href="https://astrobites.org/2025/10/06/desi-dr2-part1/" target="_blank" rel="noopener">Part 1: Key Results from the DESI DR2</a> &mdash; Oct 6, 2024</li>
     <li><a href="https://astrobites.org/2024/01/08/meet-the-aas-keynote-speakers-alan-lightman/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Alan Lightman</a> &mdash; Jan 8, 2024</li>
-    <li><a href="https://astrobites.org/2023/06/08/meet-the-aas-keynote-speakers-meenakshi-wadhwa/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Meenakshi Wadhwa</a> &mdash; Jun 8, 2023</li>
+    <li><a href="https://astrobites.org/2023/06/08/meet-the-aas-keynote-speakers-mini-wadhwa/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Meenakshi Wadhwa</a> &mdash; Jun 8, 2023</li>
     <li><a href="https://astrobites.org/2023/06/07/meet-the-aas-keynote-speakers-joel-kastner/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Joel Kastner</a> &mdash; Jun 7, 2023</li>
     <li><a href="https://astrobites.org/2023/06/05/meet-the-aas-keynote-speakers-linda-shore/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Linda Shore</a> &mdash; Jun 5, 2023</li>
     <li><a href="https://astrobites.org/2023/06/04/meet-the-aas-keynote-speakers-george-fisher/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: George Fisher</a> &mdash; Jun 4, 2023</li>
-    <li><a href="https://astrobites.org/2023/01/12/meet-the-aas-keynote-speakers-jane-rigby/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Jane Rigby</a> &mdash; Jan 12, 2023</li>
-    <li><a href="https://astrobites.org/2023/01/10/meet-the-aas-keynote-speakers-jessie-christiansen/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Jessie Christiansen</a> &mdash; Jan 10, 2023</li>
-    <li><a href="https://astrobites.org/2023/01/09/meet-the-aas-keynote-speakers-vicky-kalogera/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Vicky Kalogera</a> &mdash; Jan 9, 2023</li>
-    <li><a href="https://astrobites.org/2022/09/28/sofia-nasas-flying-infrared-observatory-prepares-for-its-final-take-off/" target="_blank" rel="noopener">SOFIA: NASA's flying infrared observatory prepares for its final take-off</a> &mdash; Sep 28, 2022</li>
-    <li><a href="https://astrobites.org/2022/06/13/meet-the-aas-keynote-speakers-dr-thomas-zurbuchen/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Dr. Thomas Zurbuchen</a> &mdash; Jun 13, 2022</li>
-    <li><a href="https://astrobites.org/2022/05/12/sgr-a-portrait-of-our-galaxys-monster/" target="_blank" rel="noopener">Sgr A*: A Portrait of our Galaxy’s Monster</a> &mdash; May 12, 2022</li>
-    <li><a href="https://astrobites.org/2022/02/14/how-to-weigh-a-black-hole-with-a-single-star/" target="_blank" rel="noopener">How to weigh a black hole with a single star</a> &mdash; Feb 14, 2022</li>
-    <li><a href="https://astrobites.org/2022/01/19/glitches-in-the-pulsar-clock/" target="_blank" rel="noopener">Glitches in the Pulsar Clock</a> &mdash; Jan 19, 2022</li>
-    <li><a href="https://astrobites.org/2022/01/04/standard-siren-updates-from-the-latest-ligo-virgo-gravitational-wave-catalog/" target="_blank" rel="noopener">Standard Siren Updates from the Latest LIGO-Virgo Gravitational-Wave Catalog</a> &mdash; Jan 4, 2022</li>
-    <li><a href="https://astrobites.org/2021/11/16/a-unique-hypernova-revealed-by-a-star-rising-from-its-ashes/" target="_blank" rel="noopener">A Unique Hypernova Revealed by a Star Rising from its Ashes</a> &mdash; Nov 16, 2021</li>
-    <li><a href="https://astrobites.org/2021/11/08/the-o3b-catalog-is-here/" target="_blank" rel="noopener">LIGO-Virgo-KAGRA: The O3b Catalog is Here!</a> &mdash; Nov 8, 2021</li>
-    <li><a href="https://astrobites.org/2021/11/05/a-magnetic-map-of-the-silent-sun/" target="_blank" rel="noopener">A Magnetic Map of the Silent Sun</a> &mdash; Nov 5, 2021</li>
-    <li><a href="https://astrobites.org/2021/09/24/peering-through-the-lens-of-the-milky-way-supermassive-black-hole/" target="_blank" rel="noopener">Peering through the lens of the Milky Way Supermassive Black Hole</a> &mdash; Sep 24, 2021</li>
-    <li><a href="https://astrobites.org/2021/09/01/a-forbidden-black-hole-merger/" target="_blank" rel="noopener">A “Forbidden” Black Hole Merger?</a> &mdash; Sep 1, 2021</li>
-    <li><a href="https://astrobites.org/2021/08/17/an-exoplanet-weigh-in-using-simple-dynamics/" target="_blank" rel="noopener">An Exoplanet Weigh-in using Simple Dynamics</a> &mdash; Aug 17, 2021</li>
-    <li><a href="https://astrobites.org/2021/07/20/radio-reports-from-gw170817-1200-days-since-the-kilonova/" target="_blank" rel="noopener">Radio reports from GW170817, 1200 days since the kilonova</a> &mdash; Jul 20, 2021</li>
-    <li><a href="https://astrobites.org/2021/07/01/mystery-in-the-mass-gap/" target="_blank" rel="noopener">Black Hole or Neutron Star? A Mystery in the Mass Gap</a> &mdash; Jul 1, 2021</li>
-    <li><a href="https://astrobites.org/2021/06/29/a-tale-of-two-mergers/" target="_blank" rel="noopener">A Tale of Two Mergers</a> &mdash; Jun 29, 2021</li>
-    <li><a href="https://astrobites.org/2021/05/25/reanalyzing-ligo-virgo-gravitational-wave-events-under-the-new-lens-of-lensing/" target="_blank" rel="noopener">Reanalyzing LIGO-Virgo gravitational wave events under the new lens of… lensing!</a> &mdash; May 25, 2021</li>
+    <li><a href="https://astrobites.org/2022/09/28/nasa-sofia-final-flight/" target="_blank" rel="noopener">SOFIA: NASA's flying infrared observatory prepares for its final take-off</a> &mdash; Sep 28, 2022</li>
+    <li><a href="https://astrobites.org/2022/06/13/aas240-zerbuchen/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Dr. Thomas Zurbuchen</a> &mdash; Jun 13, 2022</li>
+    <li><a href="https://astrobites.org/2022/01/04/gw-cosmo/" target="_blank" rel="noopener">Standard Siren Updates from the Latest LIGO-Virgo Gravitational-Wave Catalog</a> &mdash; Jan 4, 2022</li>
+    <li><a href="https://astrobites.org/2021/11/16/pop-3-hypernova/" target="_blank" rel="noopener">A Unique Hypernova Revealed by a Star Rising from its Ashes</a> &mdash; Nov 16, 2021</li>
+    <li><a href="https://astrobites.org/2021/11/05/quiet-sun/" target="_blank" rel="noopener">A Magnetic Map of the Silent Sun</a> &mdash; Nov 5, 2021</li>
+    <li><a href="https://astrobites.org/2021/09/24/mw-smbh-lensing/" target="_blank" rel="noopener">Peering through the lens of the Milky Way Supermassive Black Hole</a> &mdash; Sep 24, 2021</li>
+    <li><a href="https://astrobites.org/2021/08/17/hr8799-mass/" target="_blank" rel="noopener">An Exoplanet Weigh-in using Simple Dynamics</a> &mdash; Aug 17, 2021</li>
+    <li><a href="https://astrobites.org/2021/07/20/kilonova-radio/" target="_blank" rel="noopener">Radio reports from GW170817, 1200 days since the kilonova</a> &mdash; Jul 20, 2021</li>
+    <li><a href="https://astrobites.org/2021/05/25/gw-lensing/" target="_blank" rel="noopener">Reanalyzing LIGO-Virgo gravitational wave events under the new lens of… lensing!</a> &mdash; May 25, 2021</li>
     <li><a href="https://astrobites.org/2021/02/24/gw-spaceprobe/" target="_blank" rel="noopener">A Long Drive to Outer Space? Put Gravitational Waves on the Radio!</a> &mdash; Feb 24, 2021</li>
     <li><a href="https://astrobites.org/2021/01/21/nanograv-ng12/" target="_blank" rel="noopener">NANOGrav may have heard hints of the spacetime symphony’s bassline hum</a> &mdash; Jan 21, 2021</li>
     <li><a href="https://astrobites.org/2020/11/03/bh-escape-speed/" target="_blank" rel="noopener">Where can Black Holes that “should not exist” live?</a> &mdash; Nov 3, 2020</li>
@@ -195,9 +186,6 @@ show_tile: True
     <li><a href="https://astrobites.org/2020/03/23/gravitational-wave-taxonomy/" target="_blank" rel="noopener">Gravitational Wave Taxonomy</a> &mdash; Mar 23, 2020</li>
     <li><a href="https://astrobites.org/2020/02/04/disturbed-naps-and-black-hole-mass-gaps/" target="_blank" rel="noopener">Disturbed Naps and Black Hole Mass Gaps</a> &mdash; Feb 4, 2020</li>
 </ul>
-
-<h3> <i> AAS Nova </i> </h3>
-<h5> (Selected from Astrobites)
 
 <h3> <i> SciWorthy </i> </h3>
 <ul>

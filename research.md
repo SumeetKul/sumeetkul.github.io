@@ -31,7 +31,7 @@ nav-order: 4
 <video id="background-video" autoplay loop muted playsinline poster="../assets/images/bbhspins_poster.png">
 <source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
 </video>
-
+</div>
 
 <!-- One -->
 <section id="one">

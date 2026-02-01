@@ -4,6 +4,7 @@ title: My AAAS Mass Media Fellowship Application Guide
 description: + What I included in my 2022 application
 permalink: /blog/aaasmmf-guide/
 image: assets/images/aaasmmf-desk.jpg
+published: true
 ---
 
 
