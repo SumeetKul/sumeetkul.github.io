@@ -12,13 +12,21 @@
 
     <!-- Main -->
     <div class="alt" id="main">
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h1>Blog</h1>
+                </header>
+                <p><a href="{{ '/blog/tags/' | relative_url }}" class="button small">Browse posts by tag &rarr;</a></p>
+            </div>
+        </section>
         <!-- Two -->
         {% for post in site.posts %}
         {% if post.project != true %}
         <section class="spotlights" id="two" style="padding: 10px">
             <section>
                 <a href="{{ post.url }}" class="image">
-                    <img src="{{ post.image }}" alt="" data-position="center center" />
+                    <img src="{{ post.image }}" alt="{{ post.title | escape }}" data-position="center center" />
                 </a>
                 <div class="content">
                     <div class="inner">
@@ -49,6 +57,8 @@
         </section>
         {% endif %}
         {% endfor %}
+
+        {% include subscribe-form.html %}
     </div>
 
     {% include footer.html %}

@@ -32,5 +32,5 @@ show_tile: true
 <p>For more information about Astrophotography and stories behind some of my pictures, check out the blog section of my site - I am in the process of writing up my experiences!</p>
 
 <div id="end" class="alt" display:inline-block>
-<span class="image fit"><img src="{% link assets/images/lagoon_nebula_wide.jpg %}" alt="" /></span>
+<span class="image fit"><img src="{% link assets/images/lagoon_nebula_wide.jpg %}" alt="Wide-field astrophotograph of the Lagoon Nebula" /></span>
 
