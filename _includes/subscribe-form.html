@@ -1,15 +1,18 @@
 <!--
 	Newsletter subscribe form.
 
-	This is a placeholder: action="#" does nothing yet. To make it live, sign up
-	with an email newsletter provider and replace the form's `action` (and, if
-	needed, the input `name` attributes) with the embed/endpoint they give you.
-	Common options:
-	  - Buttondown:  https://buttondown.email/  (action="https://buttondown.email/api/emails/embed-subscribe/USERNAME")
-	  - Mailchimp:   https://mailchimp.com/     (embedded form action URL)
-	  - ConvertKit:  https://convertkit.com/    (form action URL)
-	An RSS feed is already available at /feed.xml (via jekyll-feed) for readers
-	and for RSS-to-email tools.
+	Signups are stored in a Google Sheet via a Google Apps Script Web App whose
+	URL lives in _config.yml under `newsletter_endpoint`. On submit we POST the
+	email (form-urlencoded) to that endpoint with fetch + mode:'no-cors'. Apps
+	Script Web Apps don't return CORS headers, so the response is opaque; the
+	accepted pattern is to treat a resolved promise as success.
+
+	To move to a real email provider later, replace `newsletter_endpoint` in
+	_config.yml (or swap the submit handler below) with the provider's endpoint:
+	  - Buttondown:  https://buttondown.email/
+	  - Mailchimp:   https://mailchimp.com/
+	  - ConvertKit:  https://convertkit.com/
+	See NEWSLETTER.md for details. An RSS feed is also available at /feed.xml.
 -->
 <section class="subscribe">
 	<div class="inner">
@@ -17,7 +20,8 @@
 			<h3>Subscribe</h3>
 		</header>
 		<p>Get an email when I publish a new post. No spam, unsubscribe anytime.</p>
-		<form action="#" method="post" class="subscribe-form">
+		{% if site.newsletter_endpoint and site.newsletter_endpoint != "" %}
+		<form id="subscribe-form" class="subscribe-form" data-endpoint="{{ site.newsletter_endpoint }}">
 			<div class="field">
 				<label class="label" for="subscribe-email">Email address</label>
 				<input type="email" name="email" id="subscribe-email" placeholder="you@example.com" required />
@@ -26,5 +30,50 @@
 				<li><input type="submit" value="Subscribe" class="special" /></li>
 			</ul>
 		</form>
+		<p id="subscribe-message" style="display: none;"></p>
+		<script>
+			(function () {
+				var form = document.getElementById('subscribe-form');
+				if (!form) return;
+				var message = document.getElementById('subscribe-message');
+				var button = form.querySelector('input[type="submit"]');
+				var emailInput = document.getElementById('subscribe-email');
+				var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+				function showMessage(text) {
+					message.textContent = text;
+					message.style.display = '';
+				}
+
+				form.addEventListener('submit', function (event) {
+					event.preventDefault();
+					var email = (emailInput.value || '').trim();
+					if (!email || !emailRe.test(email)) {
+						showMessage('Please enter a valid email address.');
+						return;
+					}
+
+					button.disabled = true;
+					showMessage('Subscribing…');
+
+					fetch(form.getAttribute('data-endpoint'), {
+						method: 'POST',
+						mode: 'no-cors',
+						body: new URLSearchParams({ email: email })
+					}).then(function () {
+						// Opaque response under no-cors; a resolved promise means the
+						// request was sent, which we treat as success.
+						form.style.display = 'none';
+						showMessage("Thanks — you're subscribed!");
+					}).catch(function () {
+						button.disabled = false;
+						showMessage('Something went wrong. Please try again.');
+					});
+				});
+			})();
+		</script>
+		{% else %}
+		<p><em>Newsletter signups are coming soon.</em></p>
+		{% endif %}
 	</div>
 </section>
