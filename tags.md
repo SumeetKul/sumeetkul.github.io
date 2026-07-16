@@ -30,7 +30,7 @@ show_tile: false
             {% assign tag_name = tag[0] %}
             {% assign tag_posts = tag[1] %}
             <li>
-                <a href="{{ '/blog/tags/' | append: tag_name | slugify | prepend: site.baseurl }}/">
+                <a href="{{ tag_name | slugify | prepend: '/blog/tags/' | prepend: site.baseurl | append: '/' }}">
                     <code>{{ tag_name }}</code>
                 </a>
                 <span class="tag-count">({{ tag_posts | size }})</span>
