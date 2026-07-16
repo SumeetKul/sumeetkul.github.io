@@ -56,6 +56,14 @@ bluesky_url: https://bsky.app/profile/sumeetkul.bsky.social
 # with JEKYLL_ENV=production (so it never runs during local development).
 google_analytics: "G-S471MH9P0S"
 
+# Newsletter signup endpoint.
+# This points at a Google Apps Script Web App whose doPost(e) appends
+# [timestamp, e.parameter.email] to a Google Sheet (the current signup store).
+# Set this to "" to disable the form (it falls back to a "coming soon" message).
+# Later this can be swapped for a real ESP form endpoint
+# (Buttondown/Mailchimp/ConvertKit) — see NEWSLETTER.md.
+newsletter_endpoint: "https://script.google.com/macros/s/AKfycbyHdGbSAXfLpxmJtCMVATPsuW3wYES1la3O9dsiH-RNIRyrDzwCppuxxb8zJKAgYxF9bA/exec"
+
 # build settings
 markdown: kramdown
 
@@ -71,6 +79,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - POSTING.md
+  - NEWSLETTER.md
   - AUDIT.md
   - CONTRIBUTING.md
   - forty_jekyll_theme.gemspec

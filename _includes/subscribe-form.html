@@ -1,13 +1,14 @@
 <!--
 	Newsletter subscribe form.
 
-	This is a placeholder: action="#" does nothing yet. To make it live, sign up
-	with an email newsletter provider and replace the form's `action` (and, if
-	needed, the input `name` attributes) with the embed/endpoint they give you.
-	Common options:
-	  - Buttondown:  https://buttondown.email/  (action="https://buttondown.email/api/emails/embed-subscribe/USERNAME")
-	  - Mailchimp:   https://mailchimp.com/     (embedded form action URL)
-	  - ConvertKit:  https://convertkit.com/    (form action URL)
+	Signups POST to the Google Apps Script Web App configured in _config.yml as
+	`newsletter_endpoint`, which appends [timestamp, email] to a Google Sheet.
+	See NEWSLETTER.md for how to check the sheet and how to swap this for a real
+	email service provider (Buttondown/Mailchimp/ConvertKit) later.
+
+	If `newsletter_endpoint` is empty/unset, the form degrades to a
+	"coming soon" message so nothing breaks.
+
 	An RSS feed is already available at /feed.xml (via jekyll-feed) for readers
 	and for RSS-to-email tools.
 -->
@@ -17,14 +18,61 @@
 			<h3>Subscribe</h3>
 		</header>
 		<p>Get an email when I publish a new post. No spam, unsubscribe anytime.</p>
-		<form action="#" method="post" class="subscribe-form">
+		{% if site.newsletter_endpoint and site.newsletter_endpoint != "" %}
+		<form id="subscribe-form" method="post" class="subscribe-form" data-endpoint="{{ site.newsletter_endpoint }}">
 			<div class="field">
 				<label class="label" for="subscribe-email">Email address</label>
 				<input type="email" name="email" id="subscribe-email" placeholder="you@example.com" required />
 			</div>
 			<ul class="actions">
-				<li><input type="submit" value="Subscribe" class="special" /></li>
+				<li><input type="submit" value="Subscribe" class="special" id="subscribe-submit" /></li>
 			</ul>
 		</form>
+		<p id="subscribe-message" role="status" aria-live="polite" style="display: none;"></p>
+		<script>
+			(function () {
+				var form = document.getElementById('subscribe-form');
+				if (!form) return;
+				var submit = document.getElementById('subscribe-submit');
+				var message = document.getElementById('subscribe-message');
+				var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+				function showMessage(text) {
+					message.textContent = text;
+					message.style.display = '';
+				}
+
+				form.addEventListener('submit', function (event) {
+					event.preventDefault();
+					var email = form.querySelector('#subscribe-email').value.trim();
+
+					if (!email || !emailRe.test(email)) {
+						showMessage('Please enter a valid email address.');
+						return;
+					}
+
+					submit.disabled = true;
+					message.style.display = 'none';
+
+					// Apps Script Web Apps don't return usable CORS headers, so the
+					// no-cors response is opaque: a resolved promise means the POST
+					// was sent. Treat resolve as success, reject as a network error.
+					fetch(form.dataset.endpoint, {
+						method: 'POST',
+						mode: 'no-cors',
+						body: new URLSearchParams({ email: email })
+					}).then(function () {
+						form.style.display = 'none';
+						showMessage("Thanks — you're subscribed!");
+					}).catch(function () {
+						submit.disabled = false;
+						showMessage('Something went wrong. Please try again in a moment.');
+					});
+				});
+			})();
+		</script>
+		{% else %}
+		<p><em>Newsletter signups are coming soon — check back shortly.</em></p>
+		{% endif %}
 	</div>
 </section>
