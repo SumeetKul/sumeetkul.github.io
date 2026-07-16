@@ -4,7 +4,9 @@ title: Science Communication
 description: 
 image: assets/images/scicomm_bns.jpg
 tag: 5
-nav-menu: true
+nav-menu: False
+show_tile: False
+nav-order: 4
 ---
 
 
@@ -32,15 +34,41 @@ nav-menu: true
 {% include YouTubePlayer.html id="p2gf78DNVco" %}
 </p>
 <br>
-<h4> Public Talks </h4>
 
-<ul>
-<li> The British Council's <i>Cafe Scientifique</i>: I spoke about 'The Rise of Artificial Intelligence in Astronomy' at the British Library, Pune to an audience of around 60. Cafe Scientifique provides a unique forum for the discussion of scientific issues in a way that is much more relaxed, informal and accessible than a public lecture. (January 5, 2018) </li>
-</ul>
+<h2 id="content">Oxford Science Cafe</h2>
 
-<h4> Other Activities </h4>
+<p>Between 2019-2023, I co-organized the Oxford Science Cafe: monthly public talks and conversations about science for the local community in Oxford, the only event of its kind in north Mississippi. Besides emceeing for the main event, I identify and invite potential speakers, help secure funding and publicize it.
+<br>Find out more on the homepage of the <a href="https://www.phy.olemiss.edu/oxfordsciencecafe/" target="_blank" rel="noopener">Oxford Science Cafe</a></p>
+
+<h2> Ssippin' Science </h2>
+
+<p>Ssippin' Science is a podcast where I pick up quotes and talking points from the Oxford Science Cafe talks, and add my narrative to craft concise stories for a science-y soundbite.</p> <br>
+
+<p>Check out my podcast on <a href="https://open.spotify.com/show/3J0VNtgE6LNatgA6sJyNYW" target="_blank" rel="noopener noreferrer">Spotify</a>, <a href="https://podcasts.apple.com/us/podcast/ssippin-science/id1507082060" target="_blank" rel="noopener noreferrer">Apple Podcasts</a> or <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYjk3Njg2Yy9wb2RjYXN0L3Jzcw%3D%3D" target="_blank" rel="noopener noreferrer">Google Podcasts</a>! 
+</p>
+<br>
+
+
+
+<p> Episode Highlights:</p>
+
+{% include spotifyEpisode.html id="3mMA3V77Ng6IYCSC3XIjcn" %}
+
+{% include spotifyEpisode.html id="3UMdpxE2YyWG3SH1PVLByN" %}
+
+{% include spotifyEpisode.html id="4Fkp1owMt8oh1b3F75QsJx" %}
+
+{% include spotifyEpisode.html id="0LIvfqh5LOPxcHq234zIXr" %}
+
+</div>
+<br>
+
+
+<!-- <h4> Other Activities </h4>
 <p>
 <ul>
 <li> I am a co-editor of the <a href="https://humansofligo.blogspot.com/" target="_blank" rel="noopener noreferrer">Humans of LIGO</a> blog, an initiative which celebrates individuals in the LIGO Scientific Collaboration, comprising of more than 1300 scientists and engineers from over 100 institutions and 18 countries worldwide.</li>
 <li> Halloween spooky physics night: I dress up in nerdy costumes, serve liquid nitrogen candy and conduct physics demos like `the pumpkin drop' at this family-friendly event attended by over 300 locals every year at the UM Department of Physics and Astronomy.</li>
-</ul>
+</ul> -->
+
+

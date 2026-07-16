@@ -29,7 +29,7 @@
                              {% for tag in post.tags %}
                              {% capture tag_name %}{{ tag }}{% endcapture %}
                              <div class="icon fa fa-tag fa-xs"></div>
-                             <a href="/tag/{{ tag_name }}" class="icon" style="font-size: 1em"><code><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                             <a href="/blog/tags/{{ tag_name | slugify }}/" class="icon" style="font-size: 1em"><code><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
                              {% endfor %}
                          </span>
                         <p style="padding-top: 20px">
@@ -55,4 +55,3 @@
 </body>
 
 </html>
-

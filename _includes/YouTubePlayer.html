@@ -1,7 +1,11 @@
-<iframe src="https://www.youtube.com/embed/{{ include.id }}" 
-    width="560" 
-    height="315"
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
-
+<div class="youtube-player-container">
+    <iframe 
+        src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
+        title="{{ include.title | default: 'YouTube video player' }}"
+        width="100%"
+        style="aspect-ratio: 16/9; border: 0;"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>

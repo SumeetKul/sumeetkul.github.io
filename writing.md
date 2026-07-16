@@ -1,166 +1,194 @@
 ---
 layout: landing
-title: Science Writing
+title: Writing
 landing-title: Science Writing
-description: Media Clips, Internships, and more...
+description: Internships & Science Writing Clips
+scrolline: Scroll down &dArr; to read about my science journalism internships and a full list of science writing clips.
 image: assets/images/aaasmmf-desk.jpg
+centering: center
 tag: 2
-nav-menu: true
+nav-menu: True
+nav-order: 3
+show_tile: True
 ---
 
 <!-- Two -->
 <section id="two" class="spotlights">
-        <section>
-                <a href="generic.html" class="image">
-                        <img src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
-                </a>
-                <div class="content">
-                        <div class="inner">
-                                <header class="major">
-                                        <h3>Nature</h3>
-                                </header>
-                                <p>I'm the Spring 2024 News Writing Intern at <a href="https://www.nature.com/news" target="_blank" rel="noopener">Nature Magazine</a></p>
-                                <ul class="actions">
-                                        <li><a href="nature_posts.html" class="button">All Posts</a></li>
-                                        <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </section>
-        <section>
-                <a href="generic.html" class="image">
-                        <img src="{% link assets/images/latimes-logo.jpg %}" alt="" data-position="25% 25%" />
-                </a>
-                <div class="content">
-                        <div class="inner">
-                                <header class="major">
-                                        <h3>The Los Angeles Times</h3>
-                                </header>
-                                <p>I was a <a href="https://www.aaas.org/programs/mass-media-fellowship" target="_blank" rel="noopener">AAAS Mass Media Fellow</a> at the <i>Los Angeles Times</i> in Summer 2022.</p>
-                                <ul class="actions">
-                                        <li><a href="latimes_posts.html" class="button">All Posts</a></li>
-                                        <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </section>
-	<section>
-		<a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="image" rel="noopener noreferrer">
-			<img src="{% link assets/images/sciam.jpg %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Scientific American</h3>
-				</header>
-				<p><b> Mind the [Mass] Gap </b> Astronomers are getting closer to figuring out where the dividing line lies between neutron stars and black holes.<br>
-                                       Published in the Scientific American Observations blog, October 28, 2019.</p>
-				<ul class="actions">
-					<li><a href="https://blogs.scientificamerican.com/observations/mind-the-mass-gap/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="https://indiabioscience.org/authors/SumeetKulkarni" class="image">
-			<img src="{% link assets/images/indiabioscience.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>India Bioscience</h3>
-				</header>
-				<p><b> Science Journalism Internship, Summer 2019 </b> <br>
-				In my first introduction to the craft of science writing, I wrote 3 news articles and 1 feature for India's foremost life sciences communication outlet.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">All Posts</a></li>
-                                        <li><a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
-				</ul>
-			</div>
-		</div>
-        </section>
-                <section>
-                <a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="image" rel="noopener noreferrer">
-                        <img src="{% link assets/images/thewire.jpg %}" alt="" data-position="center center" />
-                </a>
-                <div class="content">
-                        <div class="inner">
-                                <header class="major">
-                                        <h3>The Wire</h3>
-                                </header>
-                                <p>Scientists Discover How a Tiny Freshwater Animal Performs a Somersault. Published April  4, 2021.</p>
-                                <ul class="actions">
-                                        <li><a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </section>
-        <section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/astrobites.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Astrobites</h3>
-				</header>
-				<p>I am a regular author for Astrobites, a team of Astronomy graduate students who write and edit science summaries aimed at undergraduate students interested in learning more about the latest research in our field.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">All Posts</a></li>
-                                        <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
-				</ul>
-			</div>
-		</div>
-	</section> 
-                <section>
-                <a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" class="image" rel="noopener noreferrer">
-                        <img src="{% link assets/images/aasnova.jpg %}" alt="" data-position="25% 25%" />
-                </a>
-                <div class="content">
-                        <div class="inner">
-                                <header class="major">
-                                        <h3>AAS Nova</h3>
-                                </header>
-                                <p>Lack of Spacetime Squiggles Limit How Much a Pulsar Can Be Squashed.</p>
-                                <ul class="actions">
-                                        <li><a href="https://aasnova.org/2020/09/22/lack-of-spacetime-squiggles-limit-how-much-a-pulsar-can-be-squashed/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </section>      
-	<section>
-                <a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="image" rel="noopener noreferrer">
-                        <img src="{% link assets/images/iscience.jpg %}" alt="" data-position="center center" />
-                </a>
-                <div class="content">
-                        <div class="inner">
-                                <header class="major">
-                                        <h3>I, Science</h3>
-                                </header>
-                                <p><b> Extreme Energies </b> <br> Examining Gravitational Waves throught the prism of Energy, for <i>I, Science</i>, the science magazine of Imperial College, London.</p>
-                                <ul class="actions">
-                                        <li><a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </section>
-	<section>
-                <a href="" target="_blank" class="image">
-                        <img src="{% link assets/images/misc.jpg %}" alt="" data-position="center center" />
-                </a>
-                <div class="content">
-                        <div class="inner">
-                                <header class="major">
-                                        <h3>Miscellaneous</h3>
-                                </header>
-                                <p>Popping lava bubbles, surfing gravitational waves, and other miscellaneuos musings...</p>
-                                <ul class="actions">
-                                        <li><a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
-                                </ul>
-                        </div>
-                </div>
-        </section>
+    <section>
+        <a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="image" rel="noopener noreferrer">
+            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Nature</h3>
+                </header>
+                <p><b> Spring News Writing Internship 2024 </b> <br>
+                I reported stories covering breaking news, new research, science policy, scientific misconduct, and science in daily life spanning topics such as NSF budgets, NASA missions, cosmology, the solar eclipse, and AI at the 2024 Paris Olympics for <a href="https://www.nature.com/news" target="_blank" rel="noopener noreferrer">Nature News.</a></p>
+                <ul class="actions">
+                    <li><a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="image" rel="noopener noreferrer">
+            <img src="{% link assets/images/latimes-logo.jpg %}" alt="" data-position="25% 25%" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>The Los Angeles Times</h3>
+                </header>
+                <p><b> AAAS Mass Media Fellowship 2022 </b> <br>
+                I wrote 12 science news stories and features in 10 weeks, four of which appeared on the front page. For this, I interviewed 30+ sources including researchers, patients, and public figures like Bill Nye.</p>
+                <ul class="actions">
+                    <li><a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a href="https://astrobites.org/author/skulkarni/" target="_blank" class="image" rel="noopener noreferrer">
+            <img src="{% link assets/images/astrobites.png %}" alt="" data-position="25% 25%" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Astrobites</h3>
+                </header>
+                <p>Between 2020-2022, I was a regular author & editor for Astrobites, which posts daily research summaries and happenings in the field of Astronomy.</p>
+                <ul class="actions">
+                    <li><a href="https://astrobites.org/author/skulkarni/" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="image" rel="noopener noreferrer">
+            <img src="{% link assets/images/indiabioscience.png %}" alt="" data-position="top center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>India Bioscience</h3>
+                </header>
+                <p><b> Science Journalism Internship, Summer 2019 </b> <br>
+                In my first introduction to the craft of science writing, I wrote 3 news articles and 1 feature for India's foremost life sciences communication outlet.</p>
+                <ul class="actions">
+                    <li><a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="button" rel="noopener noreferrer">Author Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" class="image" rel="noopener noreferrer">
+            <img src="{% link assets/images/misc.jpg %}" alt="" data-position="center center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Miscellaneous</h3>
+                </header>
+                <p>Popping lava bubbles, surfing gravitational waves, and other miscellaneous musings...</p>
+                <ul class="actions">
+                    <li><a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" class="button" rel="noopener noreferrer">Read Article</a></li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
 </section>
+<section id="all posts">
+  <div class="inner">
+<h2> All Clips </h2>
+<h3> <i> Nature </i> </h3>
+    <ul>
+        <li><a href="https://www.nature.com/articles/d41586-024-02427-0" target="_blank" rel="noopener">Three ways AI is changing the 2024 Olympics for athletes and fans</a> &mdash; 25 Jul 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-02143-9" target="_blank" rel="noopener">The Milky Way is ‘less weird’ than we thought</a> &mdash; 28 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01764-4" target="_blank" rel="noopener">AI and Euro 2024: VAR is shaking up football — and it’s not going away</a> &mdash; 13 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01621-4" target="_blank" rel="noopener">Why cicadas shriek so loudly and more: your questions answered</a> &mdash; 03 Jun 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01584-6" target="_blank" rel="noopener">The cicadas are here! Why US researchers are swarming to study them</a> &mdash; 31 May 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01332-w" target="_blank" rel="noopener">‘Milestone’ discovery as JWST confirms atmosphere on an Earth-like exoplanet</a> &mdash; 08 May 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01272-5" target="_blank" rel="noopener">The science of 3 Body Problem: what’s fact and what’s fiction?</a> &mdash; 30 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01109-1" target="_blank" rel="noopener">NASA admits plan to bring Mars rocks to Earth won’t work — and seeks fresh ideas</a> &mdash; 16 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-01054-z" target="_blank" rel="noopener">Total solar eclipse 2024: what dazzled scientists</a> --&mdash;10 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00973-1" target="_blank" rel="noopener">Total solar eclipse 2024: how it will help scientists to study the Sun</a> &mdash; 03 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00977-x" target="_blank" rel="noopener">Right- or left-handed? Protein in embryo cells might help decide</a> &mdash; 02 Apr 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00875-2" target="_blank" rel="noopener">How papers with doctored images can affect scientific reviews</a> &mdash; 28 Mar 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00594-8" target="_blank" rel="noopener">How dwarf galaxies lit up the Universe after the Big Bang</a> &mdash; 28 Feb 2024</li>
+        <li><a href="https://www.nature.com/articles/d41586-024-00508-8" target="_blank" rel="noopener">Earthquakes are most deadly in these unexpected countries</a> &mdash; 26 Feb 2024</li>
+    </ul>
 
+<h3> <i> The Los Angeles Times </i> </h3>
+
+<ul>
+    <li><a href="https://www.latimes.com/science/story/2023-02-03/the-sounds-of-science" target="_blank" rel="noopener">The sounds of science</a> &mdash; Feb. 3, 2023</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-20/what-you-can-do-to-reduce-light-pollution#nt=0000016a-0e43-dffa-a76b-3f6bfa3f0002-showMedia-liI2promoMedium-contentFooter" target="_blank" rel="noopener">What you can do to reduce light pollution</a> &mdash; Sept. 20, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-20/how-an-effort-to-reduce-fossil-fuel-use-led-to-another-environmental-problem-light-pollution" target="_blank" rel="noopener">How an effort to reduce fossil fuel use led to another environmental problem: light pollution</a> &mdash; Sept. 20, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-09-03/jpl-tries-to-keep-voyager-from-hanging-up-on-the-worlds-longest-phone-call" target="_blank" rel="noopener">JPL tries to keep Voyager space probes from disconnecting the world’s longest phone call</a> &mdash; Sept. 3, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-27/smoke-from-california-wildfires-puts-cats-at-risk-of-developing-deadly-blood-clots" target="_blank" rel="noopener">Smoke from California wildfires puts cats at risk of developing deadly blood clots</a> &mdash; July 27, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-25/new-generation-of-scientists-to-commandeer-nasa-james-webb-space-telescope" target="_blank" rel="noopener">A new generation of scientists gets ready to commandeer the James Webb Space Telescope</a> &mdash; July 25, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-12/nasa-james-webb-space-telescope-first-five-images" target="_blank" rel="noopener">Here’s what the James Webb Space Telescope has seen in just a week of looking</a> &mdash; July 12, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-11/first-pictures-from-nasa-james-webb-space-telescope" target="_blank" rel="noopener">First image from NASA’s James Webb Space Telescope reveals thousands of galaxies in stunning detail</a> &mdash; July 11, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-08/new-3d-printing-technique-can-make-autonomous-robots-in-a-single-step" target="_blank" rel="noopener">New 3-D printing technique can make autonomous robots in a single step</a> &mdash; July 8, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-07-02/q-a-carver-mead-revolutionized-computers-can-he-do-the-same-for-physics" target="_blank" rel="noopener">Q&amp;A: Carver Mead revolutionized computers. Can he do the same for physics?</a> &mdash; July 2, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-06-23/scientists-baffled-by-discovery-of-bacteria-that-ought-to-be-too-big-to-function" target="_blank" rel="noopener">Scientists baffled by discovery of bacteria that ought to be too big to function</a> &mdash; June 23, 2022</li>
+    <li><a href="https://www.latimes.com/science/story/2022-06-10/coronavirus-infection-during-pregnancy-linked-to-brain-development-problems-in-babies" target="_blank" rel="noopener">Coronavirus infection during pregnancy linked to brain development problems in babies</a> &mdash; June 10, 2022</li>
+</ul>
+
+<h3> <i> Scientific American </i> </h3>
+<ul>
+<li>(Opinion Essay) <a href="https://www.scientificamerican.com/blog/observations/mind-the-mass-gap/" target="_blank" rel="noopener noreferrer">Mind the Mass Gap: Astronomers are getting closer to figuring out where the dividing line lies between neutron stars and black holes </a> &mdash; October 28, 2019</li>
+<br>
+<h5> Cross-posted from Nature:</h5>
+<li><a href="https://www.scientificamerican.com/article/in-a-first-jwst-confirms-an-atmosphere-on-a-rocky-exoplanet/" target="_blank" rel="noopener">In a First, JWST Confirms an Atmosphere on a Rocky Exoplanet</a> &mdash; 08 May 2024</li>
+<li><a href="https://www.scientificamerican.com/article/the-science-of-3-body-problem-whats-fact-and-whats-fiction/" target="_blank" rel="noopener">The science of 3 Body Problem: what’s fact and what’s fiction?</a> &mdash; 30 Apr 2024</li>
+<li><a href="https://www.scientificamerican.com/article/dwarf-galaxies-set-the-universe-alight-after-the-big-bang/" target="_blank" rel="noopener">Dwarf Galaxies Set the Universe Alight after the Big Bang</a> &mdash; 28 Feb 2024</li>
+
+</ul>
+<h3> <i> The Wire </i> </h3>
+<ul>
+<li><a href="https://science.thewire.in/the-sciences/scientists-discover-how-a-tiny-freshwater-animal-performs-a-somersault/" target="_blank" rel="noopener noreferrer">Scientists Discover How a Tiny Freshwater Animal Performs a Somersault </a> &mdash; Jan 8, 2021</li>
+
+</ul>
+
+<h3> <i> I, Science </i> </h3>
+<h5> Science Magazine of Imperial College, London</h5>
+<ul>
+<li><a href="http://isciencemag.co.uk/wp-content/uploads/2019/12/IScience__Fall19_Online-1.pdf#page=20" target="_blank" rel="noopener noreferrer">Extreme Energies: Gravitational Waves </a> &mdash; Fall 2019</li>
+</ul>
+
+<h3> <i> Astrobites </i> </h3>
+
+<ul>
+    <li><a href="https://astrobites.org/2023/11/08/guide-to-gravitational-waves/" target="_blank" rel="noopener">The Astrobites' Guide to Gravitational Waves</a> &mdash; Nov 8, 2023</li>
+    <li><a href="https://astrobites.org/2025/10/06/desi-dr2-part1/" target="_blank" rel="noopener">Part 1: Key Results from the DESI DR2</a> &mdash; Oct 6, 2024</li>
+    <li><a href="https://astrobites.org/2024/01/08/meet-the-aas-keynote-speakers-alan-lightman/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Alan Lightman</a> &mdash; Jan 8, 2024</li>
+    <li><a href="https://astrobites.org/2023/06/08/meet-the-aas-keynote-speakers-mini-wadhwa/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Meenakshi Wadhwa</a> &mdash; Jun 8, 2023</li>
+    <li><a href="https://astrobites.org/2023/06/07/meet-the-aas-keynote-speakers-joel-kastner/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Joel Kastner</a> &mdash; Jun 7, 2023</li>
+    <li><a href="https://astrobites.org/2023/06/05/meet-the-aas-keynote-speakers-linda-shore/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Linda Shore</a> &mdash; Jun 5, 2023</li>
+    <li><a href="https://astrobites.org/2023/06/04/meet-the-aas-keynote-speakers-george-fisher/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: George Fisher</a> &mdash; Jun 4, 2023</li>
+    <li><a href="https://astrobites.org/2022/09/28/nasa-sofia-final-flight/" target="_blank" rel="noopener">SOFIA: NASA's flying infrared observatory prepares for its final take-off</a> &mdash; Sep 28, 2022</li>
+    <li><a href="https://astrobites.org/2022/06/13/aas240-zerbuchen/" target="_blank" rel="noopener">Meet the AAS Keynote Speakers: Dr. Thomas Zurbuchen</a> &mdash; Jun 13, 2022</li>
+    <li><a href="https://astrobites.org/2022/01/04/gw-cosmo/" target="_blank" rel="noopener">Standard Siren Updates from the Latest LIGO-Virgo Gravitational-Wave Catalog</a> &mdash; Jan 4, 2022</li>
+    <li><a href="https://astrobites.org/2021/11/16/pop-3-hypernova/" target="_blank" rel="noopener">A Unique Hypernova Revealed by a Star Rising from its Ashes</a> &mdash; Nov 16, 2021</li>
+    <li><a href="https://astrobites.org/2021/11/05/quiet-sun/" target="_blank" rel="noopener">A Magnetic Map of the Silent Sun</a> &mdash; Nov 5, 2021</li>
+    <li><a href="https://astrobites.org/2021/09/24/mw-smbh-lensing/" target="_blank" rel="noopener">Peering through the lens of the Milky Way Supermassive Black Hole</a> &mdash; Sep 24, 2021</li>
+    <li><a href="https://astrobites.org/2021/08/17/hr8799-mass/" target="_blank" rel="noopener">An Exoplanet Weigh-in using Simple Dynamics</a> &mdash; Aug 17, 2021</li>
+    <li><a href="https://astrobites.org/2021/07/20/kilonova-radio/" target="_blank" rel="noopener">Radio reports from GW170817, 1200 days since the kilonova</a> &mdash; Jul 20, 2021</li>
+    <li><a href="https://astrobites.org/2021/05/25/gw-lensing/" target="_blank" rel="noopener">Reanalyzing LIGO-Virgo gravitational wave events under the new lens of… lensing!</a> &mdash; May 25, 2021</li>
+    <li><a href="https://astrobites.org/2021/02/24/gw-spaceprobe/" target="_blank" rel="noopener">A Long Drive to Outer Space? Put Gravitational Waves on the Radio!</a> &mdash; Feb 24, 2021</li>
+    <li><a href="https://astrobites.org/2021/01/21/nanograv-ng12/" target="_blank" rel="noopener">NANOGrav may have heard hints of the spacetime symphony’s bassline hum</a> &mdash; Jan 21, 2021</li>
+    <li><a href="https://astrobites.org/2020/11/03/bh-escape-speed/" target="_blank" rel="noopener">Where can Black Holes that “should not exist” live?</a> &mdash; Nov 3, 2020</li>
+    <li><a href="https://astrobites.org/2020/08/20/pulsar-ellipticity/" target="_blank" rel="noopener">Lack of spacetime squiggles limit how much a pulsar can be squashed</a> &mdash; Aug 20, 2020</li>
+    <li><a href="https://astrobites.org/2020/06/16/milkyway-encounters/" target="_blank" rel="noopener">(Stellar) Social Distancing in the Milky Way Bulge</a> &mdash; Jun 16, 2020</li>
+    <li><a href="https://astrobites.org/2020/04/29/gw190412/" target="_blank" rel="noopener">GW190412: The first gravitational waves from a lopsided black hole merger</a> &mdash; Apr 29, 2020</li>
+    <li><a href="https://astrobites.org/2020/03/23/gravitational-wave-taxonomy/" target="_blank" rel="noopener">Gravitational Wave Taxonomy</a> &mdash; Mar 23, 2020</li>
+    <li><a href="https://astrobites.org/2020/02/04/disturbed-naps-and-black-hole-mass-gaps/" target="_blank" rel="noopener">Disturbed Naps and Black Hole Mass Gaps</a> &mdash; Feb 4, 2020</li>
+</ul>
+
+<h3> <i> SciWorthy </i> </h3>
+<ul>
+<li><a href="https://sciworthy.com/using-gas-bubbles-in-lava-to-predict-ancient-air-pressure/" target="_blank" rel="noopener noreferrer">Using Gas Bubbles in Lava to Predict Ancient Air Pressure </a> &mdash; May 24, 2018</li>
 
 

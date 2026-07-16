@@ -1,22 +1,25 @@
 ---
-layout: page
+layout: landing
 title: Astrophotography
-description: Capturing the Night Sky
-image: assets/images/pic11.jpg
+description: Jewels in the Night Sky
+scrolline: Jewels in the Night Sky <br> Scroll down for more... &dArr;
+image: assets/images/astro_collage.jpeg
 tag: 6
 nav-menu: true
+nav-order: 6
+show_tile: true
 ---
 
-<!-- Main -->
+<!-- Main
 <div id="main" class="alt" display:inline-block>
-<span class="image fit"><img src="{% link assets/images/astrophoto_collage.png %}" alt="" /></span>
+<span class="image fit"><img src="{% link assets/images/astrophoto_collage.png %}" alt="" /></span> -->
 
 
 <!-- One -->
 <section id="one">
         <div class="inner">
 
-<h4>Astrophotography</h4>
+<!-- <h4>Astrophotography</h4> -->
 
 <p>During the Covid-19 lockdown in Summer '20, I was fortunate to have some equipment and access to telescopes to seek solitary solace in clicking beautiful nighttime pictures of starry skies and various cosmic objects -  I haven't looked down since :) Astrophotography is now a serious and extremely fulfilling hobby of mine. I have tried to chase a full range of targets: the Milky Way band, star clusters and constellations, colorful Nebulae, Comet NEOWISE, various Planets, Zoom-ins into the Moon's craters as well as catching the Full Moon against various landscapes, Sunspots and even the International Space Station!</p> 
 
@@ -28,4 +31,6 @@ nav-menu: true
 
 <p>For more information about Astrophotography and stories behind some of my pictures, check out the blog section of my site - I am in the process of writing up my experiences!</p>
 
+<div id="end" class="alt" display:inline-block>
+<span class="image fit"><img src="{% link assets/images/lagoon_nebula_wide.jpg %}" alt="" /></span>
 

@@ -1,21 +1,18 @@
 ---
-layout: page
+layout: landing
 title: Research
 description: The Spacetime Symphony...
-image: assets/images/gw170817.jpg
+scrolline: During my Ph.D., I studied Gravitational Waves &mdash; ripples in the fabric of spacetime. <br> Scroll down to read more &dArr;
+image: assets/images/research-2.jpg
+centering: right bottom
 tag: 3
 nav-menu: true
+show_tile: true
+nav-order: 4
 ---
 
 
 <!-- Main -->
-<div id="main" class="alt" display:inline-block>
-
-
-<video id="background-video" autoplay loop muted playsinline poster="../assets/images/bbhspins_poster.mp4">
-<source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
-</video>
-    
 <style>
 #background-video {
   width: 100vw;
@@ -29,7 +26,12 @@ nav-menu: true
   z-index: -1;
 }
 </style> 
+<div id="main" class="alt" style="display:inline-block">
 
+<video id="background-video" autoplay loop muted playsinline poster="../assets/images/bbhspins_poster.png">
+<source src="../assets/images/bbhspins_background.mp4" type="video/mp4">
+</video>
+</div>
 
 <!-- One -->
 <section id="one">
@@ -37,7 +39,7 @@ nav-menu: true
  
 
      
-<h2> Gravitational Waves: Data Analysis & Visualization</h2>
+<h2> The Spacetime Symphony... </h2>
       
 When two black holes orbit each other, their extreme compactness and density causes ripples in the fabric of spacetime around them. These ripples, called <i>Gravitational Waves</i>, were first predicted by Albert Einstein in his general theory of relativity. But he never thought we could actually detect them---when these vibrations in spacetime reach the Earth from billions of light-years away, they become incredulously tiny. Physicists, however, like proving everyone wrong, be it Einstein. In 2015, the LIGO experiment---a pair of detectors, one in Livingston, Louisiana and the other in Hanford, Washington, which shoot lasers along L-shaped arms 2.5 miles in length along the ground---detected gravitational waves for the first time ever. These waves were given off by the motion of two black holes around each other, each about 15 times the mass of our Sun. The gravitational ripples carried energy away from the orbiting black holes, pulling them tighter, making them move faster, and thus creating even larger ripples. Eventually, they collided and merged to form one larger black hole that vibrated like a struck gong before settling down. This collision resulted in a huge amount of energy: for a fleeting moment, it was the most powerful event in the universe, more so than the combined light given off by all the stars in our universe! As the gravitational waves waves flew away into the cosmos and made their long journey towards the Earth, they weakened considerably, shaking the LIGO detectors by an amount smaller than the width of a proton.
 <br><br>

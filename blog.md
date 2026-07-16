@@ -4,9 +4,11 @@ title: Blog
 landing-title: 'Blog'
 nav-menu: true
 description: 
-image: null
+image: assets/images/astropic.jpg
 author: null
-show_tile: false
+show_tile: True
+tag: 7
+nav-order: 7
 ---
 
 
