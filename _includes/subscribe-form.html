@@ -1,17 +1,19 @@
 <!--
 	Newsletter subscribe form.
 
-	Signups are stored in a Google Sheet via a Google Apps Script Web App whose
-	URL lives in _config.yml under `newsletter_endpoint`. On submit we POST the
-	email (form-urlencoded) to that endpoint with fetch + mode:'no-cors'. Apps
-	Script Web Apps don't return CORS headers, so the response is opaque; the
-	accepted pattern is to treat a resolved promise as success.
+	On submit the visitor's email is dual-written to two endpoints in parallel:
 
-	To move to a real email provider later, replace `newsletter_endpoint` in
-	_config.yml (or swap the submit handler below) with the provider's endpoint:
-	  - Buttondown:  https://buttondown.email/
-	  - Mailchimp:   https://mailchimp.com/
-	  - ConvertKit:  https://convertkit.com/
+	  1. Google Apps Script Web App (`newsletter_endpoint` in _config.yml) — a
+	     backup log that appends [timestamp, email] to a Google Sheet.
+	  2. Buttondown (the actual sending service) — its public, no-API-key
+	     embed-subscribe endpoint, built from `buttondown_username` in
+	     _config.yml.
+
+	Both POSTs use fetch + mode:'no-cors' (form-urlencoded email). Neither
+	endpoint returns usable CORS headers, so responses are opaque; the accepted
+	pattern is to treat a resolved promise as success. Buttondown may have double
+	opt-in enabled, so the visitor could receive a confirmation email.
+
 	See NEWSLETTER.md for details. An RSS feed is also available at /feed.xml.
 -->
 <section class="subscribe">
@@ -21,7 +23,7 @@
 		</header>
 		<p>Get an email when I publish a new post. No spam, unsubscribe anytime.</p>
 		{% if site.newsletter_endpoint and site.newsletter_endpoint != "" %}
-		<form id="subscribe-form" class="subscribe-form" data-endpoint="{{ site.newsletter_endpoint }}">
+		<form id="subscribe-form" class="subscribe-form" data-endpoint="{{ site.newsletter_endpoint }}"{% if site.buttondown_username and site.buttondown_username != "" %} data-buttondown-endpoint="https://buttondown.com/api/emails/embed-subscribe/{{ site.buttondown_username }}"{% endif %}>
 			<div class="field">
 				<label class="label" for="subscribe-email">Email address</label>
 				<input type="email" name="email" id="subscribe-email" placeholder="you@example.com" required />
@@ -56,13 +58,25 @@
 					button.disabled = true;
 					showMessage('Subscribing…');
 
-					fetch(form.getAttribute('data-endpoint'), {
-						method: 'POST',
-						mode: 'no-cors',
-						body: new URLSearchParams({ email: email })
-					}).then(function () {
-						// Opaque response under no-cors; a resolved promise means the
-						// request was sent, which we treat as success.
+					var payload = new URLSearchParams({ email: email });
+					function post(url) {
+						return fetch(url, {
+							method: 'POST',
+							mode: 'no-cors',
+							body: payload
+						});
+					}
+
+					// Dual-write: Google Sheet backup log + Buttondown (sending
+					// service). Both are opaque under no-cors; a resolved promise
+					// means the request was sent, which we treat as success. The
+					// Sheet log is the source of truth for success messaging.
+					var buttondownEndpoint = form.getAttribute('data-buttondown-endpoint');
+					if (buttondownEndpoint) {
+						post(buttondownEndpoint);
+					}
+
+					post(form.getAttribute('data-endpoint')).then(function () {
 						form.style.display = 'none';
 						showMessage("Thanks — you're subscribed!");
 					}).catch(function () {

@@ -64,6 +64,14 @@ google_analytics: "G-S471MH9P0S"
 # by replacing the URL and the submit handler in _includes/subscribe-form.html.
 newsletter_endpoint: "https://script.google.com/macros/s/AKfycbyHdGbSAXfLpxmJtCMVATPsuW3wYES1la3O9dsiH-RNIRyrDzwCppuxxb8zJKAgYxF9bA/exec"
 
+# Buttondown newsletter (the actual sending service).
+# On submit, the subscribe form ALSO POSTs the email to Buttondown's public,
+# no-API-key embed-subscribe endpoint, built as:
+#   https://buttondown.com/api/emails/embed-subscribe/<buttondown_username>
+# This is non-secret (it's the public signup path). The Google Sheet above is
+# kept as a parallel backup log. See NEWSLETTER.md.
+buttondown_username: "the.sumeetsonian"
+
 # build settings
 markdown: kramdown
 
