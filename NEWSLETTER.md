@@ -5,21 +5,51 @@ addresses for the blog's new-post newsletter.
 
 ## Where signups go today
 
-Submitted emails are stored in a **Google Sheet**, written by a **Google Apps
-Script Web App**. The Web App URL lives in `_config.yml`:
+On submit, the form **dual-writes** each email, in parallel, to two places:
+
+1. **Google Sheet** (backup log) — written by a **Google Apps Script Web App**.
+2. **Buttondown** (<https://buttondown.com/the.sumeetsonian>) — the actual
+   service used to compose and send the newsletter.
+
+### (a) Google Sheet backup log
+
+The Web App URL lives in `_config.yml`:
 
 ```yaml
 newsletter_endpoint: "https://script.google.com/macros/s/.../exec"
 ```
 
-On submit, the form does a `fetch` POST (form-urlencoded, `mode: 'no-cors'`) of
-the `email` field to that endpoint. The Apps Script `doPost(e)` reads
-`e.parameter.email` and appends `[timestamp, email]` as a new row.
+The form does a `fetch` POST (form-urlencoded, `mode: 'no-cors'`) of the `email`
+field to that endpoint. The Apps Script `doPost(e)` reads `e.parameter.email`
+and appends `[timestamp, email]` as a new row. This is an intentional backup log
+and stays as-is.
 
-Because Apps Script Web Apps don't return usable CORS headers, the browser sees
-an *opaque* response — we can't read status or body. The accepted pattern is to
-treat a resolved `fetch` promise as success (and a rejected promise, e.g. a
-network failure, as an error).
+### (b) Buttondown (the sending service)
+
+Buttondown is where the newsletter is actually composed and sent. The form also
+POSTs the same `email` to Buttondown's public, no-API-key **embed-subscribe**
+endpoint. Only the username is stored in `_config.yml` (non-secret); the URL is
+built from it in the Liquid template:
+
+```yaml
+buttondown_username: "the.sumeetsonian"
+```
+
+→ `https://buttondown.com/api/emails/embed-subscribe/the.sumeetsonian`
+
+**Double opt-in:** Buttondown likely has double opt-in enabled by default, so a
+new subscriber may receive a **confirmation email** and won't be fully
+subscribed until they click the link in it. This is expected — don't be
+surprised if the Sheet has an email that isn't yet confirmed in Buttondown. You
+can change this in the Buttondown settings if you prefer single opt-in.
+
+### Opaque responses (both endpoints)
+
+Neither endpoint returns usable CORS headers, so the browser sees *opaque*
+responses — we can't read status or body. The accepted pattern is to treat a
+resolved `fetch` promise as success (and a rejected promise, e.g. a network
+failure, as an error). The success/thank-you message is keyed off the Google
+Sheet request.
 
 ## How to check the signups
 
@@ -36,20 +66,18 @@ update `newsletter_endpoint` in `_config.yml`.
 Set `newsletter_endpoint: ""` in `_config.yml`. The include then hides the form
 and shows a "coming soon" message instead of breaking.
 
-## Swapping to a real email service provider
+## Checking Buttondown subscribers
 
-To move off the Google Sheet onto a hosted provider (Buttondown, Mailchimp,
-ConvertKit, etc.):
+Log in at <https://buttondown.com/the.sumeetsonian> to see the subscriber list,
+compose issues, and send the newsletter. Remember that double opt-in means a
+subscriber only appears as confirmed once they click the confirmation email.
 
-1. Create a form/audience with the provider and copy their embed snippet or form
-   `action` endpoint.
-2. Either:
-   - **Simplest:** replace `newsletter_endpoint` in `_config.yml` with the
-     provider's POST endpoint (if it accepts a form-urlencoded `email` field,
-     the existing JS handler may work as-is), **or**
-   - Replace the `<form>` / `<script>` in `_includes/subscribe-form.html` with
-     the provider's official embed snippet.
-3. Rebuild and test a signup end-to-end.
+## Changing the Buttondown account
+
+If the Buttondown username ever changes, update `buttondown_username` in
+`_config.yml`; the embed-subscribe URL is derived from it automatically. Setting
+it to `""` disables the second (Buttondown) write while leaving the Google Sheet
+backup log intact.
 
 An RSS feed is also available at `/feed.xml` (via `jekyll-feed`) for readers and
 RSS-to-email tools.
