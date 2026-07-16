@@ -36,7 +36,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Or a version compatible with your Jekyll version
+          ruby-version: '3.3' # Or a version compatible with your Jekyll version
           bundler-cache: true # Runs 'bundle install' and caches installed gems
 
       - name: Build with Jekyll
