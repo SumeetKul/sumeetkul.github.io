@@ -2,7 +2,10 @@
 layout: post
 title: Astrophotography
 description: Under Development
+date: 2020-08-15
 image: assets/images/astropic.jpg
+tags: [astrophotography]
+published: false
 ---
 
 

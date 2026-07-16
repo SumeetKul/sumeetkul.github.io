@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Me vs the world's largest digital camera
-description: TBD
-date: 2020-07-10
+description: Comparing a shot from my entry-level mirrorless camera with the Vera Rubin Observatory's 3.2-gigapixel camera.
 permalink: /blog/lagoon/
 tags: [astrophotography]
 published: false
@@ -13,7 +12,7 @@ For me, the most exciting astronomy news of 2025 was unveiling of the the world'
 
 Sit tight to see a side-by-side comparison later, but does it really matter which picture looks better? What's more interesting (in my opinion) is the fact that that these two instruments can play in the same *field* at all.
 
-![image info](../assets/images/blog/rubin_camera.jpg)
+![Side-by-side of the Vera Rubin Observatory camera and a Canon M50 mirrorless camera](/assets/images/blog/Rubin_camera.jpg)
 
 To the left is Vera Rubin's humongous 3200 Megapixel (or 3.2 Giga-pixel) camera. On the right is my humble entry-level 24.1 Megapixel Canon M50 mirrorless camera whose image sensor is smaller than a postage stamp. Rubin's, on the other hand, is the size of a large pizza.
 

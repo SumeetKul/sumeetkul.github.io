@@ -49,15 +49,36 @@ instagram_url: https://www.instagram.com/the.sumeetsonian/
 linkedin_url: https://www.linkedin.com/in/sumeet-kulkarni/
 bluesky_url: https://bsky.app/profile/sumeetkul.bsky.social
 
+# Google Analytics (GA4).
+# Paste your GA4 Measurement ID here in the form "G-XXXXXXXXXX".
+# Set this to "" to disable analytics entirely. The gtag.js snippet in
+# _includes/head.html only loads when this is non-empty AND the site is built
+# with JEKYLL_ENV=production (so it never runs during local development).
+google_analytics: "G-S471MH9P0S"
+
 # build settings
 markdown: kramdown
 
 sass:
   style: compressed
 
+# Files and folders kept out of the built site.
+exclude:
+  - _drafts_raw/       # raw drafts staged for scripts/publish_draft.py
+  - scripts/
+  - vendor/
+  - .bundle/
+  - Gemfile
+  - Gemfile.lock
+  - POSTING.md
+  - AUDIT.md
+  - CONTRIBUTING.md
+  - forty_jekyll_theme.gemspec
+
 # Plugins
 plugins:
   - jekyll-archives
+  - jekyll-feed
 
 # Archives
 jekyll-archives:

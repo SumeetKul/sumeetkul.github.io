@@ -16,7 +16,7 @@ show_tile: True
 <section id="two" class="spotlights">
     <section>
         <a href="https://www.nature.com/search?q=author=Sumeet+Kulkarni&article_type=news&order=relevance&author=Sumeet%20Kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature.jpg %}" alt="" data-position="25% 25%" />
+            <img style="max-height: 100px object-fit: none" src="{% link assets/images/nature.jpg %}" alt="Nature logo" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
@@ -33,7 +33,7 @@ show_tile: True
     </section>
     <section>
         <a href="https://www.latimes.com/people/sumeet-kulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/latimes-logo.jpg %}" alt="" data-position="25% 25%" />
+            <img src="{% link assets/images/latimes-logo.jpg %}" alt="The Los Angeles Times logo" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
@@ -50,7 +50,7 @@ show_tile: True
     </section>
     <section>
         <a href="https://astrobites.org/author/skulkarni/" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/astrobites.png %}" alt="" data-position="25% 25%" />
+            <img src="{% link assets/images/astrobites.png %}" alt="Astrobites logo" data-position="25% 25%" />
         </a>
         <div class="content">
             <div class="inner">
@@ -66,7 +66,7 @@ show_tile: True
     </section>
     <section>
         <a href="https://indiabioscience.org/authors/SumeetKulkarni" target="_blank" class="image" rel="noopener noreferrer">
-            <img src="{% link assets/images/indiabioscience.png %}" alt="" data-position="top center" />
+            <img src="{% link assets/images/indiabioscience.png %}" alt="India Bioscience logo" data-position="top center" />
         </a>
         <div class="content">
             <div class="inner">

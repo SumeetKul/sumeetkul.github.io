@@ -78,6 +78,7 @@
 		</section>
 	</div>
 </section>
+{% include subscribe-form.html %}
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
@@ -118,7 +119,11 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li><a href="{{ '/blog/tags/' | relative_url }}">Tags</a></li>
+				<li><a href="{{ '/stats/' | relative_url }}">Blog Stats</a></li>
+				<li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
 				<li>Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+				<!-- TODO(audit): http://andrewbanchi.ch no longer resolves (HTTP 000). Update to the theme author's current site or remove this credit. -->
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank" rel="noopener noreferrer">Andrew Banchich</a></li>
 
 			</ul>

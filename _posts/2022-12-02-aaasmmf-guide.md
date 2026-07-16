@@ -1,9 +1,10 @@
-﻿---
+---
 layout: post
 title: My AAAS Mass Media Fellowship Application Guide
 description: + What I included in my 2022 application
 permalink: /blog/aaasmmf-guide/
 image: assets/images/aaasmmf-desk.jpg
+tags: [science-writing, science-communication]
 published: true
 ---
 
@@ -76,6 +77,7 @@ I emulated this success in 2021 by winning the similar 3-Minute Thesis competiti
 
 After joining graduate school, I obtained a formal introduction to science journalism through a summer internship with ‘India Bioscience’. I have also attended science communication conferences like the National Association of Science Writers (NASW) meeting, Comscicon-Atlanta, Comscicon AIP, and Comscicon-SciWri.
 
+<!-- TODO(audit): https://comscicon.com/comscicon-atlanta-2021-organizers returns 404. Update or remove this link. -->
 Last year, I was elected co-chair of the organizing committee for [Comscicon-Atlanta ’21](https://comscicon.com/comscicon-atlanta-2021-organizers){:target="_blank"}, where I relished the challenge of designing a virtual conference from scratch for fellow graduate students across the southeastern USA.
 
 Through these experiences, I now know how to find newsworthy stories, how to pitch them, how embargoes work, how to interview researchers, and also understand the effective science news story structure consisting of the lede, the nutgraf, a quote-driven narrative, and the kicker.
